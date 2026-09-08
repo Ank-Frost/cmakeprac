@@ -4,6 +4,7 @@ hello: \
   /usr/lib/gcc/x86_64-linux-gnu/15/crtbeginS.o \
   CMakeFiles/hello.dir/prac.cpp.o \
   libmymath.a \
+  /usr/lib/x86_64-linux-gnu/libz.so \
   /usr/lib/gcc/x86_64-linux-gnu/15/libstdc++.so \
   /usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu/libm.so \
   /usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu/libm.so \
@@ -43,6 +44,8 @@ hello: \
 CMakeFiles/hello.dir/prac.cpp.o:
 
 libmymath.a:
+
+/usr/lib/x86_64-linux-gnu/libz.so:
 
 /usr/lib/gcc/x86_64-linux-gnu/15/libstdc++.so:
 
