@@ -1300,8 +1300,8 @@ events:
     checks:
       - "Detecting C compiler ABI info"
     directories:
-      source: "/home/ankit/Code_purpose/ns3-crypto-integration/cmakeprac/build/CMakeFiles/CMakeScratch/TryCompile-gXk3ze"
-      binary: "/home/ankit/Code_purpose/ns3-crypto-integration/cmakeprac/build/CMakeFiles/CMakeScratch/TryCompile-gXk3ze"
+      source: "/home/ankit/Code_purpose/ns3-crypto-integration/cmakeprac/build/CMakeFiles/CMakeScratch/TryCompile-gEnqNW"
+      binary: "/home/ankit/Code_purpose/ns3-crypto-integration/cmakeprac/build/CMakeFiles/CMakeScratch/TryCompile-gEnqNW"
     cmakeVariables:
       CMAKE_C_FLAGS: ""
       CMAKE_C_FLAGS_DEBUG: "-g"
@@ -1310,13 +1310,13 @@ events:
       variable: "CMAKE_C_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: '/home/ankit/Code_purpose/ns3-crypto-integration/cmakeprac/build/CMakeFiles/CMakeScratch/TryCompile-gXk3ze'
+        Change Dir: '/home/ankit/Code_purpose/ns3-crypto-integration/cmakeprac/build/CMakeFiles/CMakeScratch/TryCompile-gEnqNW'
         
-        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_98d84/fast
-        /usr/bin/gmake  -f CMakeFiles/cmTC_98d84.dir/build.make CMakeFiles/cmTC_98d84.dir/build
-        gmake[1]: Entering directory '/home/ankit/Code_purpose/ns3-crypto-integration/cmakeprac/build/CMakeFiles/CMakeScratch/TryCompile-gXk3ze'
-        Building C object CMakeFiles/cmTC_98d84.dir/CMakeCCompilerABI.c.o
-        /usr/bin/cc   -v -o CMakeFiles/cmTC_98d84.dir/CMakeCCompilerABI.c.o -c /usr/share/cmake-4.2/Modules/CMakeCCompilerABI.c
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_467f3/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_467f3.dir/build.make CMakeFiles/cmTC_467f3.dir/build
+        gmake[1]: Entering directory '/home/ankit/Code_purpose/ns3-crypto-integration/cmakeprac/build/CMakeFiles/CMakeScratch/TryCompile-gEnqNW'
+        Building C object CMakeFiles/cmTC_467f3.dir/CMakeCCompilerABI.c.o
+        /usr/bin/cc   -v -o CMakeFiles/cmTC_467f3.dir/CMakeCCompilerABI.c.o -c /usr/share/cmake-4.2/Modules/CMakeCCompilerABI.c
         Using built-in specs.
         COLLECT_GCC=/usr/bin/cc
         OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa
@@ -1326,8 +1326,8 @@ events:
         Thread model: posix
         Supported LTO compression algorithms: zlib zstd
         gcc version 15.2.0 (Ubuntu 15.2.0-16ubuntu1) 
-        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_98d84.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_98d84.dir/'
-         /usr/libexec/gcc/x86_64-linux-gnu/15/cc1 -quiet -v -imultiarch x86_64-linux-gnu /usr/share/cmake-4.2/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_98d84.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mtune=generic -march=x86-64 -version -fasynchronous-unwind-tables -fstack-protector-strong -Wformat -Wformat-security -fstack-clash-protection -fcf-protection -fzero-init-padding-bits=all -Wbidi-chars=any -o /tmp/cciB5Y5B.s
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_467f3.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_467f3.dir/'
+         /usr/libexec/gcc/x86_64-linux-gnu/15/cc1 -quiet -v -imultiarch x86_64-linux-gnu /usr/share/cmake-4.2/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_467f3.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mtune=generic -march=x86-64 -version -fasynchronous-unwind-tables -fstack-protector-strong -Wformat -Wformat-security -fstack-clash-protection -fcf-protection -fzero-init-padding-bits=all -Wbidi-chars=any -o /tmp/ccT8gKjq.s
         GNU C23 (Ubuntu 15.2.0-16ubuntu1) version 15.2.0 (x86_64-linux-gnu)
         	compiled by GNU C version 15.2.0, GMP version 6.3.0, MPFR version 4.2.2, MPC version 1.3.1, isl version isl-0.27-GMP
         
@@ -1344,14 +1344,14 @@ events:
          /usr/include
         End of search list.
         Compiler executable checksum: edd70396dcc669433a92073f97309866
-        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_98d84.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_98d84.dir/'
-         /usr/bin/x86_64-linux-gnu-as -v --64 -o CMakeFiles/cmTC_98d84.dir/CMakeCCompilerABI.c.o /tmp/cciB5Y5B.s
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_467f3.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_467f3.dir/'
+         /usr/bin/x86_64-linux-gnu-as -v --64 -o CMakeFiles/cmTC_467f3.dir/CMakeCCompilerABI.c.o /tmp/ccT8gKjq.s
         GNU assembler version 2.46 (x86_64-linux-gnu) using BFD version (GNU Binutils for Ubuntu) 2.46
         COMPILER_PATH=/usr/libexec/gcc/x86_64-linux-gnu/15/:/usr/libexec/gcc/x86_64-linux-gnu/15/:/usr/libexec/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/15/:/usr/lib/gcc/x86_64-linux-gnu/
         LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/15/:/usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/15/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/15/../../../:/lib/:/usr/lib/
-        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_98d84.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_98d84.dir/CMakeCCompilerABI.c.'
-        Linking C executable cmTC_98d84
-        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_98d84.dir/link.txt --verbose=1
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_467f3.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_467f3.dir/CMakeCCompilerABI.c.'
+        Linking C executable cmTC_467f3
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_467f3.dir/link.txt --verbose=1
         Using built-in specs.
         COLLECT_GCC=/usr/bin/cc
         COLLECT_LTO_WRAPPER=/usr/libexec/gcc/x86_64-linux-gnu/15/lto-wrapper
@@ -1364,14 +1364,14 @@ events:
         gcc version 15.2.0 (Ubuntu 15.2.0-16ubuntu1) 
         COMPILER_PATH=/usr/libexec/gcc/x86_64-linux-gnu/15/:/usr/libexec/gcc/x86_64-linux-gnu/15/:/usr/libexec/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/15/:/usr/lib/gcc/x86_64-linux-gnu/
         LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/15/:/usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/15/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/15/../../../:/lib/:/usr/lib/
-        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_98d84' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_98d84.'
-         /usr/libexec/gcc/x86_64-linux-gnu/15/collect2 -plugin /usr/libexec/gcc/x86_64-linux-gnu/15/liblto_plugin.so -plugin-opt=/usr/libexec/gcc/x86_64-linux-gnu/15/lto-wrapper -plugin-opt=-fresolution=/tmp/ccolLjel.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_98d84 /usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/15/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/15 -L/usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/15/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/15/../../.. -L/lib -L/usr/lib -v CMakeFiles/cmTC_98d84.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/15/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu/crtn.o
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_467f3' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_467f3.'
+         /usr/libexec/gcc/x86_64-linux-gnu/15/collect2 -plugin /usr/libexec/gcc/x86_64-linux-gnu/15/liblto_plugin.so -plugin-opt=/usr/libexec/gcc/x86_64-linux-gnu/15/lto-wrapper -plugin-opt=-fresolution=/tmp/ccEEhYJF.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_467f3 /usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/15/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/15 -L/usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/15/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/15/../../.. -L/lib -L/usr/lib -v CMakeFiles/cmTC_467f3.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/15/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu/crtn.o
         collect2 version 15.2.0
-        /usr/bin/ld -plugin /usr/libexec/gcc/x86_64-linux-gnu/15/liblto_plugin.so -plugin-opt=/usr/libexec/gcc/x86_64-linux-gnu/15/lto-wrapper -plugin-opt=-fresolution=/tmp/ccolLjel.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_98d84 /usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/15/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/15 -L/usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/15/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/15/../../.. -L/lib -L/usr/lib -v CMakeFiles/cmTC_98d84.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/15/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu/crtn.o
+        /usr/bin/ld -plugin /usr/libexec/gcc/x86_64-linux-gnu/15/liblto_plugin.so -plugin-opt=/usr/libexec/gcc/x86_64-linux-gnu/15/lto-wrapper -plugin-opt=-fresolution=/tmp/ccEEhYJF.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_467f3 /usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/15/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/15 -L/usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/15/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/15/../../.. -L/lib -L/usr/lib -v CMakeFiles/cmTC_467f3.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/15/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu/crtn.o
         GNU ld (GNU Binutils for Ubuntu) 2.46
-        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_98d84' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_98d84.'
-        /usr/bin/cc  -v -Wl,-v CMakeFiles/cmTC_98d84.dir/CMakeCCompilerABI.c.o -o cmTC_98d84
-        gmake[1]: Leaving directory '/home/ankit/Code_purpose/ns3-crypto-integration/cmakeprac/build/CMakeFiles/CMakeScratch/TryCompile-gXk3ze'
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_467f3' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_467f3.'
+        /usr/bin/cc  -v -Wl,-v CMakeFiles/cmTC_467f3.dir/CMakeCCompilerABI.c.o -o cmTC_467f3
+        gmake[1]: Leaving directory '/home/ankit/Code_purpose/ns3-crypto-integration/cmakeprac/build/CMakeFiles/CMakeScratch/TryCompile-gEnqNW'
         
       exitCode: 0
   -
@@ -1406,13 +1406,13 @@ events:
       Parsed C implicit link information:
         link line regex: [^( *|.*[/\\])(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
         linker tool regex: [^[ 	]*(->|"|[0-9]+>[ 	-]*Build:[ 	0-9]+ ms[ 	]*)?[ 	]*(([^"]*[/\\])?(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)))("|,| |$)]
-        ignore line: [Change Dir: '/home/ankit/Code_purpose/ns3-crypto-integration/cmakeprac/build/CMakeFiles/CMakeScratch/TryCompile-gXk3ze']
+        ignore line: [Change Dir: '/home/ankit/Code_purpose/ns3-crypto-integration/cmakeprac/build/CMakeFiles/CMakeScratch/TryCompile-gEnqNW']
         ignore line: []
-        ignore line: [Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_98d84/fast]
-        ignore line: [/usr/bin/gmake  -f CMakeFiles/cmTC_98d84.dir/build.make CMakeFiles/cmTC_98d84.dir/build]
-        ignore line: [gmake[1]: Entering directory '/home/ankit/Code_purpose/ns3-crypto-integration/cmakeprac/build/CMakeFiles/CMakeScratch/TryCompile-gXk3ze']
-        ignore line: [Building C object CMakeFiles/cmTC_98d84.dir/CMakeCCompilerABI.c.o]
-        ignore line: [/usr/bin/cc   -v -o CMakeFiles/cmTC_98d84.dir/CMakeCCompilerABI.c.o -c /usr/share/cmake-4.2/Modules/CMakeCCompilerABI.c]
+        ignore line: [Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_467f3/fast]
+        ignore line: [/usr/bin/gmake  -f CMakeFiles/cmTC_467f3.dir/build.make CMakeFiles/cmTC_467f3.dir/build]
+        ignore line: [gmake[1]: Entering directory '/home/ankit/Code_purpose/ns3-crypto-integration/cmakeprac/build/CMakeFiles/CMakeScratch/TryCompile-gEnqNW']
+        ignore line: [Building C object CMakeFiles/cmTC_467f3.dir/CMakeCCompilerABI.c.o]
+        ignore line: [/usr/bin/cc   -v -o CMakeFiles/cmTC_467f3.dir/CMakeCCompilerABI.c.o -c /usr/share/cmake-4.2/Modules/CMakeCCompilerABI.c]
         ignore line: [Using built-in specs.]
         ignore line: [COLLECT_GCC=/usr/bin/cc]
         ignore line: [OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa]
@@ -1422,8 +1422,8 @@ events:
         ignore line: [Thread model: posix]
         ignore line: [Supported LTO compression algorithms: zlib zstd]
         ignore line: [gcc version 15.2.0 (Ubuntu 15.2.0-16ubuntu1) ]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_98d84.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_98d84.dir/']
-        ignore line: [ /usr/libexec/gcc/x86_64-linux-gnu/15/cc1 -quiet -v -imultiarch x86_64-linux-gnu /usr/share/cmake-4.2/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_98d84.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mtune=generic -march=x86-64 -version -fasynchronous-unwind-tables -fstack-protector-strong -Wformat -Wformat-security -fstack-clash-protection -fcf-protection -fzero-init-padding-bits=all -Wbidi-chars=any -o /tmp/cciB5Y5B.s]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_467f3.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_467f3.dir/']
+        ignore line: [ /usr/libexec/gcc/x86_64-linux-gnu/15/cc1 -quiet -v -imultiarch x86_64-linux-gnu /usr/share/cmake-4.2/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_467f3.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mtune=generic -march=x86-64 -version -fasynchronous-unwind-tables -fstack-protector-strong -Wformat -Wformat-security -fstack-clash-protection -fcf-protection -fzero-init-padding-bits=all -Wbidi-chars=any -o /tmp/ccT8gKjq.s]
         ignore line: [GNU C23 (Ubuntu 15.2.0-16ubuntu1) version 15.2.0 (x86_64-linux-gnu)]
         ignore line: [	compiled by GNU C version 15.2.0  GMP version 6.3.0  MPFR version 4.2.2  MPC version 1.3.1  isl version isl-0.27-GMP]
         ignore line: []
@@ -1440,14 +1440,14 @@ events:
         ignore line: [ /usr/include]
         ignore line: [End of search list.]
         ignore line: [Compiler executable checksum: edd70396dcc669433a92073f97309866]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_98d84.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_98d84.dir/']
-        ignore line: [ /usr/bin/x86_64-linux-gnu-as -v --64 -o CMakeFiles/cmTC_98d84.dir/CMakeCCompilerABI.c.o /tmp/cciB5Y5B.s]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_467f3.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_467f3.dir/']
+        ignore line: [ /usr/bin/x86_64-linux-gnu-as -v --64 -o CMakeFiles/cmTC_467f3.dir/CMakeCCompilerABI.c.o /tmp/ccT8gKjq.s]
         ignore line: [GNU assembler version 2.46 (x86_64-linux-gnu) using BFD version (GNU Binutils for Ubuntu) 2.46]
         ignore line: [COMPILER_PATH=/usr/libexec/gcc/x86_64-linux-gnu/15/:/usr/libexec/gcc/x86_64-linux-gnu/15/:/usr/libexec/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/15/:/usr/lib/gcc/x86_64-linux-gnu/]
         ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/15/:/usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/15/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/15/../../../:/lib/:/usr/lib/]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_98d84.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_98d84.dir/CMakeCCompilerABI.c.']
-        ignore line: [Linking C executable cmTC_98d84]
-        ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_98d84.dir/link.txt --verbose=1]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_467f3.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_467f3.dir/CMakeCCompilerABI.c.']
+        ignore line: [Linking C executable cmTC_467f3]
+        ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_467f3.dir/link.txt --verbose=1]
         ignore line: [Using built-in specs.]
         ignore line: [COLLECT_GCC=/usr/bin/cc]
         ignore line: [COLLECT_LTO_WRAPPER=/usr/libexec/gcc/x86_64-linux-gnu/15/lto-wrapper]
@@ -1460,13 +1460,13 @@ events:
         ignore line: [gcc version 15.2.0 (Ubuntu 15.2.0-16ubuntu1) ]
         ignore line: [COMPILER_PATH=/usr/libexec/gcc/x86_64-linux-gnu/15/:/usr/libexec/gcc/x86_64-linux-gnu/15/:/usr/libexec/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/15/:/usr/lib/gcc/x86_64-linux-gnu/]
         ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/15/:/usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/15/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/15/../../../:/lib/:/usr/lib/]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_98d84' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_98d84.']
-        link line: [ /usr/libexec/gcc/x86_64-linux-gnu/15/collect2 -plugin /usr/libexec/gcc/x86_64-linux-gnu/15/liblto_plugin.so -plugin-opt=/usr/libexec/gcc/x86_64-linux-gnu/15/lto-wrapper -plugin-opt=-fresolution=/tmp/ccolLjel.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_98d84 /usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/15/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/15 -L/usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/15/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/15/../../.. -L/lib -L/usr/lib -v CMakeFiles/cmTC_98d84.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/15/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu/crtn.o]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_467f3' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_467f3.']
+        link line: [ /usr/libexec/gcc/x86_64-linux-gnu/15/collect2 -plugin /usr/libexec/gcc/x86_64-linux-gnu/15/liblto_plugin.so -plugin-opt=/usr/libexec/gcc/x86_64-linux-gnu/15/lto-wrapper -plugin-opt=-fresolution=/tmp/ccEEhYJF.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_467f3 /usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/15/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/15 -L/usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/15/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/15/../../.. -L/lib -L/usr/lib -v CMakeFiles/cmTC_467f3.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/15/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu/crtn.o]
           arg [/usr/libexec/gcc/x86_64-linux-gnu/15/collect2] ==> ignore
           arg [-plugin] ==> ignore
           arg [/usr/libexec/gcc/x86_64-linux-gnu/15/liblto_plugin.so] ==> ignore
           arg [-plugin-opt=/usr/libexec/gcc/x86_64-linux-gnu/15/lto-wrapper] ==> ignore
-          arg [-plugin-opt=-fresolution=/tmp/ccolLjel.res] ==> ignore
+          arg [-plugin-opt=-fresolution=/tmp/ccEEhYJF.res] ==> ignore
           arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
           arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
           arg [-plugin-opt=-pass-through=-lc] ==> ignore
@@ -1484,7 +1484,7 @@ events:
           arg [-znow] ==> ignore
           arg [-zrelro] ==> ignore
           arg [-o] ==> ignore
-          arg [cmTC_98d84] ==> ignore
+          arg [cmTC_467f3] ==> ignore
           arg [/usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu/Scrt1.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu/Scrt1.o]
           arg [/usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu/crti.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu/crti.o]
           arg [/usr/lib/gcc/x86_64-linux-gnu/15/crtbeginS.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/15/crtbeginS.o]
@@ -1499,7 +1499,7 @@ events:
           arg [-L/lib] ==> dir [/lib]
           arg [-L/usr/lib] ==> dir [/usr/lib]
           arg [-v] ==> ignore
-          arg [CMakeFiles/cmTC_98d84.dir/CMakeCCompilerABI.c.o] ==> ignore
+          arg [CMakeFiles/cmTC_467f3.dir/CMakeCCompilerABI.c.o] ==> ignore
           arg [-lgcc] ==> lib [gcc]
           arg [--push-state] ==> ignore
           arg [--as-needed] ==> ignore
@@ -1514,7 +1514,7 @@ events:
           arg [/usr/lib/gcc/x86_64-linux-gnu/15/crtendS.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/15/crtendS.o]
           arg [/usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu/crtn.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu/crtn.o]
         ignore line: [collect2 version 15.2.0]
-        ignore line: [/usr/bin/ld -plugin /usr/libexec/gcc/x86_64-linux-gnu/15/liblto_plugin.so -plugin-opt=/usr/libexec/gcc/x86_64-linux-gnu/15/lto-wrapper -plugin-opt=-fresolution=/tmp/ccolLjel.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_98d84 /usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/15/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/15 -L/usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/15/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/15/../../.. -L/lib -L/usr/lib -v CMakeFiles/cmTC_98d84.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/15/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu/crtn.o]
+        ignore line: [/usr/bin/ld -plugin /usr/libexec/gcc/x86_64-linux-gnu/15/liblto_plugin.so -plugin-opt=/usr/libexec/gcc/x86_64-linux-gnu/15/lto-wrapper -plugin-opt=-fresolution=/tmp/ccEEhYJF.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_467f3 /usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/15/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/15 -L/usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/15/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/15/../../.. -L/lib -L/usr/lib -v CMakeFiles/cmTC_467f3.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/15/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu/crtn.o]
         linker tool for 'C': /usr/bin/ld
         collapse obj [/usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu/Scrt1.o] ==> [/usr/lib/x86_64-linux-gnu/Scrt1.o]
         collapse obj [/usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu/crti.o] ==> [/usr/lib/x86_64-linux-gnu/crti.o]
@@ -1554,8 +1554,8 @@ events:
     checks:
       - "Detecting CXX compiler ABI info"
     directories:
-      source: "/home/ankit/Code_purpose/ns3-crypto-integration/cmakeprac/build/CMakeFiles/CMakeScratch/TryCompile-agGLFb"
-      binary: "/home/ankit/Code_purpose/ns3-crypto-integration/cmakeprac/build/CMakeFiles/CMakeScratch/TryCompile-agGLFb"
+      source: "/home/ankit/Code_purpose/ns3-crypto-integration/cmakeprac/build/CMakeFiles/CMakeScratch/TryCompile-aUzTlq"
+      binary: "/home/ankit/Code_purpose/ns3-crypto-integration/cmakeprac/build/CMakeFiles/CMakeScratch/TryCompile-aUzTlq"
     cmakeVariables:
       CMAKE_CXX_FLAGS: ""
       CMAKE_CXX_FLAGS_DEBUG: "-g"
@@ -1565,13 +1565,13 @@ events:
       variable: "CMAKE_CXX_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: '/home/ankit/Code_purpose/ns3-crypto-integration/cmakeprac/build/CMakeFiles/CMakeScratch/TryCompile-agGLFb'
+        Change Dir: '/home/ankit/Code_purpose/ns3-crypto-integration/cmakeprac/build/CMakeFiles/CMakeScratch/TryCompile-aUzTlq'
         
-        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_8f571/fast
-        /usr/bin/gmake  -f CMakeFiles/cmTC_8f571.dir/build.make CMakeFiles/cmTC_8f571.dir/build
-        gmake[1]: Entering directory '/home/ankit/Code_purpose/ns3-crypto-integration/cmakeprac/build/CMakeFiles/CMakeScratch/TryCompile-agGLFb'
-        Building CXX object CMakeFiles/cmTC_8f571.dir/CMakeCXXCompilerABI.cpp.o
-        /usr/bin/c++   -v -o CMakeFiles/cmTC_8f571.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-4.2/Modules/CMakeCXXCompilerABI.cpp
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_8ecf1/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_8ecf1.dir/build.make CMakeFiles/cmTC_8ecf1.dir/build
+        gmake[1]: Entering directory '/home/ankit/Code_purpose/ns3-crypto-integration/cmakeprac/build/CMakeFiles/CMakeScratch/TryCompile-aUzTlq'
+        Building CXX object CMakeFiles/cmTC_8ecf1.dir/CMakeCXXCompilerABI.cpp.o
+        /usr/bin/c++   -v -o CMakeFiles/cmTC_8ecf1.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-4.2/Modules/CMakeCXXCompilerABI.cpp
         Using built-in specs.
         COLLECT_GCC=/usr/bin/c++
         OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa
@@ -1581,8 +1581,8 @@ events:
         Thread model: posix
         Supported LTO compression algorithms: zlib zstd
         gcc version 15.2.0 (Ubuntu 15.2.0-16ubuntu1) 
-        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_8f571.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_8f571.dir/'
-         /usr/libexec/gcc/x86_64-linux-gnu/15/cc1plus -quiet -v -imultiarch x86_64-linux-gnu -D_GNU_SOURCE /usr/share/cmake-4.2/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_8f571.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=x86-64 -version -fasynchronous-unwind-tables -fstack-protector-strong -Wformat -Wformat-security -fstack-clash-protection -fcf-protection -fzero-init-padding-bits=all -Wbidi-chars=any -o /tmp/ccyyZtES.s
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_8ecf1.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_8ecf1.dir/'
+         /usr/libexec/gcc/x86_64-linux-gnu/15/cc1plus -quiet -v -imultiarch x86_64-linux-gnu -D_GNU_SOURCE /usr/share/cmake-4.2/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_8ecf1.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=x86-64 -version -fasynchronous-unwind-tables -fstack-protector-strong -Wformat -Wformat-security -fstack-clash-protection -fcf-protection -fzero-init-padding-bits=all -Wbidi-chars=any -o /tmp/cc8wVb1V.s
         GNU C++17 (Ubuntu 15.2.0-16ubuntu1) version 15.2.0 (x86_64-linux-gnu)
         	compiled by GNU C version 15.2.0, GMP version 6.3.0, MPFR version 4.2.2, MPC version 1.3.1, isl version isl-0.27-GMP
         
@@ -1603,14 +1603,14 @@ events:
          /usr/include
         End of search list.
         Compiler executable checksum: b661a74662ad7cf413c4193391ab5290
-        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_8f571.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_8f571.dir/'
-         /usr/bin/x86_64-linux-gnu-as -v --64 -o CMakeFiles/cmTC_8f571.dir/CMakeCXXCompilerABI.cpp.o /tmp/ccyyZtES.s
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_8ecf1.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_8ecf1.dir/'
+         /usr/bin/x86_64-linux-gnu-as -v --64 -o CMakeFiles/cmTC_8ecf1.dir/CMakeCXXCompilerABI.cpp.o /tmp/cc8wVb1V.s
         GNU assembler version 2.46 (x86_64-linux-gnu) using BFD version (GNU Binutils for Ubuntu) 2.46
         COMPILER_PATH=/usr/libexec/gcc/x86_64-linux-gnu/15/:/usr/libexec/gcc/x86_64-linux-gnu/15/:/usr/libexec/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/15/:/usr/lib/gcc/x86_64-linux-gnu/
         LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/15/:/usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/15/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/15/../../../:/lib/:/usr/lib/
-        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_8f571.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_8f571.dir/CMakeCXXCompilerABI.cpp.'
-        Linking CXX executable cmTC_8f571
-        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8f571.dir/link.txt --verbose=1
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_8ecf1.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_8ecf1.dir/CMakeCXXCompilerABI.cpp.'
+        Linking CXX executable cmTC_8ecf1
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8ecf1.dir/link.txt --verbose=1
         Using built-in specs.
         COLLECT_GCC=/usr/bin/c++
         COLLECT_LTO_WRAPPER=/usr/libexec/gcc/x86_64-linux-gnu/15/lto-wrapper
@@ -1623,14 +1623,14 @@ events:
         gcc version 15.2.0 (Ubuntu 15.2.0-16ubuntu1) 
         COMPILER_PATH=/usr/libexec/gcc/x86_64-linux-gnu/15/:/usr/libexec/gcc/x86_64-linux-gnu/15/:/usr/libexec/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/15/:/usr/lib/gcc/x86_64-linux-gnu/
         LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/15/:/usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/15/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/15/../../../:/lib/:/usr/lib/
-        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_8f571' '-foffload-options=-l_GCC_stdc++' '-foffload-options=-l_GCC_m' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_8f571.'
-         /usr/libexec/gcc/x86_64-linux-gnu/15/collect2 -plugin /usr/libexec/gcc/x86_64-linux-gnu/15/liblto_plugin.so -plugin-opt=/usr/libexec/gcc/x86_64-linux-gnu/15/lto-wrapper -plugin-opt=-fresolution=/tmp/ccFOXSCd.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_8f571 /usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/15/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/15 -L/usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/15/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/15/../../.. -L/lib -L/usr/lib -v CMakeFiles/cmTC_8f571.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/15/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu/crtn.o
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_8ecf1' '-foffload-options=-l_GCC_stdc++' '-foffload-options=-l_GCC_m' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_8ecf1.'
+         /usr/libexec/gcc/x86_64-linux-gnu/15/collect2 -plugin /usr/libexec/gcc/x86_64-linux-gnu/15/liblto_plugin.so -plugin-opt=/usr/libexec/gcc/x86_64-linux-gnu/15/lto-wrapper -plugin-opt=-fresolution=/tmp/ccddwNqv.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_8ecf1 /usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/15/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/15 -L/usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/15/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/15/../../.. -L/lib -L/usr/lib -v CMakeFiles/cmTC_8ecf1.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/15/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu/crtn.o
         collect2 version 15.2.0
-        /usr/bin/ld -plugin /usr/libexec/gcc/x86_64-linux-gnu/15/liblto_plugin.so -plugin-opt=/usr/libexec/gcc/x86_64-linux-gnu/15/lto-wrapper -plugin-opt=-fresolution=/tmp/ccFOXSCd.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_8f571 /usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/15/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/15 -L/usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/15/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/15/../../.. -L/lib -L/usr/lib -v CMakeFiles/cmTC_8f571.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/15/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu/crtn.o
+        /usr/bin/ld -plugin /usr/libexec/gcc/x86_64-linux-gnu/15/liblto_plugin.so -plugin-opt=/usr/libexec/gcc/x86_64-linux-gnu/15/lto-wrapper -plugin-opt=-fresolution=/tmp/ccddwNqv.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_8ecf1 /usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/15/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/15 -L/usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/15/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/15/../../.. -L/lib -L/usr/lib -v CMakeFiles/cmTC_8ecf1.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/15/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu/crtn.o
         GNU ld (GNU Binutils for Ubuntu) 2.46
-        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_8f571' '-foffload-options=-l_GCC_stdc++' '-foffload-options=-l_GCC_m' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_8f571.'
-        /usr/bin/c++  -v -Wl,-v CMakeFiles/cmTC_8f571.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_8f571
-        gmake[1]: Leaving directory '/home/ankit/Code_purpose/ns3-crypto-integration/cmakeprac/build/CMakeFiles/CMakeScratch/TryCompile-agGLFb'
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_8ecf1' '-foffload-options=-l_GCC_stdc++' '-foffload-options=-l_GCC_m' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_8ecf1.'
+        /usr/bin/c++  -v -Wl,-v CMakeFiles/cmTC_8ecf1.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_8ecf1
+        gmake[1]: Leaving directory '/home/ankit/Code_purpose/ns3-crypto-integration/cmakeprac/build/CMakeFiles/CMakeScratch/TryCompile-aUzTlq'
         
       exitCode: 0
   -
@@ -1671,13 +1671,13 @@ events:
       Parsed CXX implicit link information:
         link line regex: [^( *|.*[/\\])(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
         linker tool regex: [^[ 	]*(->|"|[0-9]+>[ 	-]*Build:[ 	0-9]+ ms[ 	]*)?[ 	]*(([^"]*[/\\])?(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)))("|,| |$)]
-        ignore line: [Change Dir: '/home/ankit/Code_purpose/ns3-crypto-integration/cmakeprac/build/CMakeFiles/CMakeScratch/TryCompile-agGLFb']
+        ignore line: [Change Dir: '/home/ankit/Code_purpose/ns3-crypto-integration/cmakeprac/build/CMakeFiles/CMakeScratch/TryCompile-aUzTlq']
         ignore line: []
-        ignore line: [Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_8f571/fast]
-        ignore line: [/usr/bin/gmake  -f CMakeFiles/cmTC_8f571.dir/build.make CMakeFiles/cmTC_8f571.dir/build]
-        ignore line: [gmake[1]: Entering directory '/home/ankit/Code_purpose/ns3-crypto-integration/cmakeprac/build/CMakeFiles/CMakeScratch/TryCompile-agGLFb']
-        ignore line: [Building CXX object CMakeFiles/cmTC_8f571.dir/CMakeCXXCompilerABI.cpp.o]
-        ignore line: [/usr/bin/c++   -v -o CMakeFiles/cmTC_8f571.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-4.2/Modules/CMakeCXXCompilerABI.cpp]
+        ignore line: [Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_8ecf1/fast]
+        ignore line: [/usr/bin/gmake  -f CMakeFiles/cmTC_8ecf1.dir/build.make CMakeFiles/cmTC_8ecf1.dir/build]
+        ignore line: [gmake[1]: Entering directory '/home/ankit/Code_purpose/ns3-crypto-integration/cmakeprac/build/CMakeFiles/CMakeScratch/TryCompile-aUzTlq']
+        ignore line: [Building CXX object CMakeFiles/cmTC_8ecf1.dir/CMakeCXXCompilerABI.cpp.o]
+        ignore line: [/usr/bin/c++   -v -o CMakeFiles/cmTC_8ecf1.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-4.2/Modules/CMakeCXXCompilerABI.cpp]
         ignore line: [Using built-in specs.]
         ignore line: [COLLECT_GCC=/usr/bin/c++]
         ignore line: [OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa]
@@ -1687,8 +1687,8 @@ events:
         ignore line: [Thread model: posix]
         ignore line: [Supported LTO compression algorithms: zlib zstd]
         ignore line: [gcc version 15.2.0 (Ubuntu 15.2.0-16ubuntu1) ]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_8f571.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_8f571.dir/']
-        ignore line: [ /usr/libexec/gcc/x86_64-linux-gnu/15/cc1plus -quiet -v -imultiarch x86_64-linux-gnu -D_GNU_SOURCE /usr/share/cmake-4.2/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_8f571.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=x86-64 -version -fasynchronous-unwind-tables -fstack-protector-strong -Wformat -Wformat-security -fstack-clash-protection -fcf-protection -fzero-init-padding-bits=all -Wbidi-chars=any -o /tmp/ccyyZtES.s]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_8ecf1.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_8ecf1.dir/']
+        ignore line: [ /usr/libexec/gcc/x86_64-linux-gnu/15/cc1plus -quiet -v -imultiarch x86_64-linux-gnu -D_GNU_SOURCE /usr/share/cmake-4.2/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_8ecf1.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=x86-64 -version -fasynchronous-unwind-tables -fstack-protector-strong -Wformat -Wformat-security -fstack-clash-protection -fcf-protection -fzero-init-padding-bits=all -Wbidi-chars=any -o /tmp/cc8wVb1V.s]
         ignore line: [GNU C++17 (Ubuntu 15.2.0-16ubuntu1) version 15.2.0 (x86_64-linux-gnu)]
         ignore line: [	compiled by GNU C version 15.2.0  GMP version 6.3.0  MPFR version 4.2.2  MPC version 1.3.1  isl version isl-0.27-GMP]
         ignore line: []
@@ -1709,14 +1709,14 @@ events:
         ignore line: [ /usr/include]
         ignore line: [End of search list.]
         ignore line: [Compiler executable checksum: b661a74662ad7cf413c4193391ab5290]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_8f571.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_8f571.dir/']
-        ignore line: [ /usr/bin/x86_64-linux-gnu-as -v --64 -o CMakeFiles/cmTC_8f571.dir/CMakeCXXCompilerABI.cpp.o /tmp/ccyyZtES.s]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_8ecf1.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_8ecf1.dir/']
+        ignore line: [ /usr/bin/x86_64-linux-gnu-as -v --64 -o CMakeFiles/cmTC_8ecf1.dir/CMakeCXXCompilerABI.cpp.o /tmp/cc8wVb1V.s]
         ignore line: [GNU assembler version 2.46 (x86_64-linux-gnu) using BFD version (GNU Binutils for Ubuntu) 2.46]
         ignore line: [COMPILER_PATH=/usr/libexec/gcc/x86_64-linux-gnu/15/:/usr/libexec/gcc/x86_64-linux-gnu/15/:/usr/libexec/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/15/:/usr/lib/gcc/x86_64-linux-gnu/]
         ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/15/:/usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/15/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/15/../../../:/lib/:/usr/lib/]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_8f571.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_8f571.dir/CMakeCXXCompilerABI.cpp.']
-        ignore line: [Linking CXX executable cmTC_8f571]
-        ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8f571.dir/link.txt --verbose=1]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_8ecf1.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_8ecf1.dir/CMakeCXXCompilerABI.cpp.']
+        ignore line: [Linking CXX executable cmTC_8ecf1]
+        ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8ecf1.dir/link.txt --verbose=1]
         ignore line: [Using built-in specs.]
         ignore line: [COLLECT_GCC=/usr/bin/c++]
         ignore line: [COLLECT_LTO_WRAPPER=/usr/libexec/gcc/x86_64-linux-gnu/15/lto-wrapper]
@@ -1729,13 +1729,13 @@ events:
         ignore line: [gcc version 15.2.0 (Ubuntu 15.2.0-16ubuntu1) ]
         ignore line: [COMPILER_PATH=/usr/libexec/gcc/x86_64-linux-gnu/15/:/usr/libexec/gcc/x86_64-linux-gnu/15/:/usr/libexec/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/15/:/usr/lib/gcc/x86_64-linux-gnu/]
         ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/15/:/usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/15/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/15/../../../:/lib/:/usr/lib/]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_8f571' '-foffload-options=-l_GCC_stdc++' '-foffload-options=-l_GCC_m' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_8f571.']
-        link line: [ /usr/libexec/gcc/x86_64-linux-gnu/15/collect2 -plugin /usr/libexec/gcc/x86_64-linux-gnu/15/liblto_plugin.so -plugin-opt=/usr/libexec/gcc/x86_64-linux-gnu/15/lto-wrapper -plugin-opt=-fresolution=/tmp/ccFOXSCd.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_8f571 /usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/15/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/15 -L/usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/15/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/15/../../.. -L/lib -L/usr/lib -v CMakeFiles/cmTC_8f571.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/15/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu/crtn.o]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_8ecf1' '-foffload-options=-l_GCC_stdc++' '-foffload-options=-l_GCC_m' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_8ecf1.']
+        link line: [ /usr/libexec/gcc/x86_64-linux-gnu/15/collect2 -plugin /usr/libexec/gcc/x86_64-linux-gnu/15/liblto_plugin.so -plugin-opt=/usr/libexec/gcc/x86_64-linux-gnu/15/lto-wrapper -plugin-opt=-fresolution=/tmp/ccddwNqv.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_8ecf1 /usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/15/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/15 -L/usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/15/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/15/../../.. -L/lib -L/usr/lib -v CMakeFiles/cmTC_8ecf1.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/15/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu/crtn.o]
           arg [/usr/libexec/gcc/x86_64-linux-gnu/15/collect2] ==> ignore
           arg [-plugin] ==> ignore
           arg [/usr/libexec/gcc/x86_64-linux-gnu/15/liblto_plugin.so] ==> ignore
           arg [-plugin-opt=/usr/libexec/gcc/x86_64-linux-gnu/15/lto-wrapper] ==> ignore
-          arg [-plugin-opt=-fresolution=/tmp/ccFOXSCd.res] ==> ignore
+          arg [-plugin-opt=-fresolution=/tmp/ccddwNqv.res] ==> ignore
           arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
           arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
           arg [-plugin-opt=-pass-through=-lc] ==> ignore
@@ -1753,7 +1753,7 @@ events:
           arg [-znow] ==> ignore
           arg [-zrelro] ==> ignore
           arg [-o] ==> ignore
-          arg [cmTC_8f571] ==> ignore
+          arg [cmTC_8ecf1] ==> ignore
           arg [/usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu/Scrt1.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu/Scrt1.o]
           arg [/usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu/crti.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu/crti.o]
           arg [/usr/lib/gcc/x86_64-linux-gnu/15/crtbeginS.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/15/crtbeginS.o]
@@ -1768,7 +1768,7 @@ events:
           arg [-L/lib] ==> dir [/lib]
           arg [-L/usr/lib] ==> dir [/usr/lib]
           arg [-v] ==> ignore
-          arg [CMakeFiles/cmTC_8f571.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+          arg [CMakeFiles/cmTC_8ecf1.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
           arg [-lstdc++] ==> lib [stdc++]
           arg [-lm] ==> lib [m]
           arg [-lgcc_s] ==> lib [gcc_s]
@@ -1779,7 +1779,7 @@ events:
           arg [/usr/lib/gcc/x86_64-linux-gnu/15/crtendS.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/15/crtendS.o]
           arg [/usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu/crtn.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu/crtn.o]
         ignore line: [collect2 version 15.2.0]
-        ignore line: [/usr/bin/ld -plugin /usr/libexec/gcc/x86_64-linux-gnu/15/liblto_plugin.so -plugin-opt=/usr/libexec/gcc/x86_64-linux-gnu/15/lto-wrapper -plugin-opt=-fresolution=/tmp/ccFOXSCd.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_8f571 /usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/15/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/15 -L/usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/15/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/15/../../.. -L/lib -L/usr/lib -v CMakeFiles/cmTC_8f571.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/15/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu/crtn.o]
+        ignore line: [/usr/bin/ld -plugin /usr/libexec/gcc/x86_64-linux-gnu/15/liblto_plugin.so -plugin-opt=/usr/libexec/gcc/x86_64-linux-gnu/15/lto-wrapper -plugin-opt=-fresolution=/tmp/ccddwNqv.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_8ecf1 /usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/15/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/15 -L/usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/15/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/15/../../.. -L/lib -L/usr/lib -v CMakeFiles/cmTC_8ecf1.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/15/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu/crtn.o]
         linker tool for 'CXX': /usr/bin/ld
         collapse obj [/usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu/Scrt1.o] ==> [/usr/lib/x86_64-linux-gnu/Scrt1.o]
         collapse obj [/usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu/crti.o] ==> [/usr/lib/x86_64-linux-gnu/crti.o]
@@ -1813,10 +1813,109 @@ events:
   -
     kind: "find-v1"
     backtrace:
-      - "/usr/share/cmake-4.2/Modules/FindZLIB.cmake:165 (find_path)"
-      - "CMakeLists.txt:19 (find_package)"
+      - "CMakeLists.txt:19 (find_library)"
+    mode: "library"
+    variable: "CRYPTOPP_LIB"
+    description: "Path to a library."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "cryptopp"
+    candidate_directories:
+      - "/home/ankit/.config/Code/User/globalStorage/github.copilot-chat/debugCommand/"
+      - "/home/ankit/.config/Code/User/globalStorage/github.copilot-chat/copilotCli/"
+      - "/home/ankit/.nvm/versions/node/v20.20.0/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/sbin/"
+      - "/usr/bin/"
+      - "/sbin/"
+      - "/bin/"
+      - "/usr/games/"
+      - "/usr/local/games/"
+      - "/snap/bin/"
+      - "/home/ankit/.lmstudio/bin/"
+      - "/usr/local/go/bin/"
+      - "/usr/local/lib/x86_64-linux-gnu/"
+      - "/usr/local/lib/"
+      - "/usr/local/"
+      - "/usr/lib/x86_64-linux-gnu/"
+      - "/usr/lib/"
+      - "/usr/"
+      - "/lib/x86_64-linux-gnu/"
+      - "/lib/"
+      - "/usr/X11R6/lib/x86_64-linux-gnu/"
+      - "/usr/X11R6/lib/"
+      - "/usr/X11R6/"
+      - "/usr/pkg/lib/x86_64-linux-gnu/"
+      - "/usr/pkg/lib/"
+      - "/usr/pkg/"
+      - "/opt/lib/x86_64-linux-gnu/"
+      - "/opt/lib/"
+      - "/opt/"
+      - "/usr/lib/X11/"
+    searched_directories:
+      - "/home/ankit/.config/Code/User/globalStorage/github.copilot-chat/debugCommand/"
+      - "/home/ankit/.config/Code/User/globalStorage/github.copilot-chat/copilotCli/"
+      - "/home/ankit/.nvm/versions/node/v20.20.0/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/sbin/"
+      - "/usr/bin/"
+      - "/sbin/"
+      - "/bin/"
+      - "/usr/games/"
+      - "/usr/local/games/"
+      - "/snap/bin/"
+      - "/home/ankit/.lmstudio/bin/"
+      - "/usr/local/go/bin/"
+      - "/usr/local/lib/x86_64-linux-gnu/"
+      - "/usr/local/lib/"
+      - "/usr/local/"
+    found: "/usr/lib/x86_64-linux-gnu/libcryptopp.so"
+    search_context:
+      ENV{PATH}:
+        - "/home/ankit/.config/Code/User/globalStorage/github.copilot-chat/debugCommand"
+        - "/home/ankit/.config/Code/User/globalStorage/github.copilot-chat/copilotCli"
+        - "/home/ankit/.nvm/versions/node/v20.20.0/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+        - "/usr/games"
+        - "/usr/local/games"
+        - "/snap/bin"
+        - "/snap/bin"
+        - "/home/ankit/.lmstudio/bin"
+        - "/usr/local/go/bin"
+        - "/home/ankit/.lmstudio/bin"
+        - "/usr/local/go/bin"
+      CMAKE_INSTALL_PREFIX: "/usr/local"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "/usr/local"
+        - "/usr"
+        - "/"
+        - "/usr"
+        - "/usr/local"
+        - "/usr/X11R6"
+        - "/usr/pkg"
+        - "/opt"
+      CMAKE_SYSTEM_LIBRARY_PATH:
+        - "/usr/lib/X11"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "CMakeLists.txt:21 (find_path)"
     mode: "path"
-    variable: "ZLIB_INCLUDE_DIR"
+    variable: "CRYPTOPP_INCLUDE_DIR"
     description: "Path to a file."
     settings:
       SearchFramework: "NEVER"
@@ -1827,112 +1926,59 @@ events:
       CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
       CMAKE_FIND_USE_INSTALL_PREFIX: true
     names:
-      - "zlib.h"
+      - "cryptopp/aes.h"
     candidate_directories:
-      - "/home/ankit/.config/Code/User/globalStorage/github.copilot-chat/debugCommand/include/"
       - "/home/ankit/.config/Code/User/globalStorage/github.copilot-chat/debugCommand/"
-      - "/home/ankit/.config/Code/User/globalStorage/github.copilot-chat/copilotCli/include/"
       - "/home/ankit/.config/Code/User/globalStorage/github.copilot-chat/copilotCli/"
-      - "/home/ankit/.nvm/versions/node/v20.20.0/bin/include/"
       - "/home/ankit/.nvm/versions/node/v20.20.0/bin/"
-      - "/usr/local/sbin/include/"
       - "/usr/local/sbin/"
-      - "/usr/local/bin/include/"
       - "/usr/local/bin/"
-      - "/usr/sbin/include/"
       - "/usr/sbin/"
-      - "/usr/bin/include/"
       - "/usr/bin/"
-      - "/sbin/include/"
       - "/sbin/"
-      - "/bin/include/"
       - "/bin/"
-      - "/usr/games/include/"
       - "/usr/games/"
-      - "/usr/local/games/include/"
       - "/usr/local/games/"
-      - "/snap/bin/include/"
       - "/snap/bin/"
-      - "/home/ankit/.lmstudio/bin/include/"
       - "/home/ankit/.lmstudio/bin/"
-      - "/usr/local/go/bin/include/"
       - "/usr/local/go/bin/"
-      - "/usr/local/include/x86_64-linux-gnu/include/"
       - "/usr/local/include/x86_64-linux-gnu/"
-      - "/usr/local/include/include/"
-      - "/usr/local/include/"
       - "/usr/local/include/"
       - "/usr/local/"
-      - "/usr/include/x86_64-linux-gnu/include/"
       - "/usr/include/x86_64-linux-gnu/"
-      - "/usr/include/include/"
-      - "/usr/include/"
       - "/usr/include/"
       - "/usr/"
-      - "/include/x86_64-linux-gnu/include/"
       - "/include/x86_64-linux-gnu/"
-      - "/include/include/"
       - "/include/"
-      - "/usr/X11R6/include/x86_64-linux-gnu/include/"
       - "/usr/X11R6/include/x86_64-linux-gnu/"
-      - "/usr/X11R6/include/include/"
-      - "/usr/X11R6/include/"
       - "/usr/X11R6/include/"
       - "/usr/X11R6/"
-      - "/usr/pkg/include/x86_64-linux-gnu/include/"
       - "/usr/pkg/include/x86_64-linux-gnu/"
-      - "/usr/pkg/include/include/"
-      - "/usr/pkg/include/"
       - "/usr/pkg/include/"
       - "/usr/pkg/"
-      - "/opt/include/x86_64-linux-gnu/include/"
       - "/opt/include/x86_64-linux-gnu/"
-      - "/opt/include/include/"
-      - "/opt/include/"
       - "/opt/include/"
       - "/opt/"
-      - "/usr/include/X11/include/"
       - "/usr/include/X11/"
-      - "/zlib/include/"
-      - "/zlib/"
     searched_directories:
-      - "/home/ankit/.config/Code/User/globalStorage/github.copilot-chat/debugCommand/include/zlib.h"
-      - "/home/ankit/.config/Code/User/globalStorage/github.copilot-chat/debugCommand/zlib.h"
-      - "/home/ankit/.config/Code/User/globalStorage/github.copilot-chat/copilotCli/include/zlib.h"
-      - "/home/ankit/.config/Code/User/globalStorage/github.copilot-chat/copilotCli/zlib.h"
-      - "/home/ankit/.nvm/versions/node/v20.20.0/bin/include/zlib.h"
-      - "/home/ankit/.nvm/versions/node/v20.20.0/bin/zlib.h"
-      - "/usr/local/sbin/include/zlib.h"
-      - "/usr/local/sbin/zlib.h"
-      - "/usr/local/bin/include/zlib.h"
-      - "/usr/local/bin/zlib.h"
-      - "/usr/sbin/include/zlib.h"
-      - "/usr/sbin/zlib.h"
-      - "/usr/bin/include/zlib.h"
-      - "/usr/bin/zlib.h"
-      - "/sbin/include/zlib.h"
-      - "/sbin/zlib.h"
-      - "/bin/include/zlib.h"
-      - "/bin/zlib.h"
-      - "/usr/games/include/zlib.h"
-      - "/usr/games/zlib.h"
-      - "/usr/local/games/include/zlib.h"
-      - "/usr/local/games/zlib.h"
-      - "/snap/bin/include/zlib.h"
-      - "/snap/bin/zlib.h"
-      - "/home/ankit/.lmstudio/bin/include/zlib.h"
-      - "/home/ankit/.lmstudio/bin/zlib.h"
-      - "/usr/local/go/bin/include/zlib.h"
-      - "/usr/local/go/bin/zlib.h"
-      - "/usr/local/include/x86_64-linux-gnu/include/zlib.h"
-      - "/usr/local/include/x86_64-linux-gnu/zlib.h"
-      - "/usr/local/include/include/zlib.h"
-      - "/usr/local/include/zlib.h"
-      - "/usr/local/include/zlib.h"
-      - "/usr/local/zlib.h"
-      - "/usr/include/x86_64-linux-gnu/include/zlib.h"
-      - "/usr/include/x86_64-linux-gnu/zlib.h"
-      - "/usr/include/include/zlib.h"
+      - "/home/ankit/.config/Code/User/globalStorage/github.copilot-chat/debugCommand/cryptopp/aes.h"
+      - "/home/ankit/.config/Code/User/globalStorage/github.copilot-chat/copilotCli/cryptopp/aes.h"
+      - "/home/ankit/.nvm/versions/node/v20.20.0/bin/cryptopp/aes.h"
+      - "/usr/local/sbin/cryptopp/aes.h"
+      - "/usr/local/bin/cryptopp/aes.h"
+      - "/usr/sbin/cryptopp/aes.h"
+      - "/usr/bin/cryptopp/aes.h"
+      - "/sbin/cryptopp/aes.h"
+      - "/bin/cryptopp/aes.h"
+      - "/usr/games/cryptopp/aes.h"
+      - "/usr/local/games/cryptopp/aes.h"
+      - "/snap/bin/cryptopp/aes.h"
+      - "/home/ankit/.lmstudio/bin/cryptopp/aes.h"
+      - "/usr/local/go/bin/cryptopp/aes.h"
+      - "/usr/local/include/x86_64-linux-gnu/cryptopp/aes.h"
+      - "/usr/local/include/cryptopp/aes.h"
+      - "/usr/local/cryptopp/aes.h"
+      - "/usr/include/x86_64-linux-gnu/cryptopp/aes.h"
     found: "/usr/include/"
     search_context:
       ENV{PATH}:
@@ -1965,1129 +2011,4 @@ events:
         - "/opt"
       CMAKE_SYSTEM_INCLUDE_PATH:
         - "/usr/include/X11"
-  -
-    kind: "find-v1"
-    backtrace:
-      - "/usr/share/cmake-4.2/Modules/FindZLIB.cmake:195 (find_library)"
-      - "CMakeLists.txt:19 (find_package)"
-    mode: "library"
-    variable: "ZLIB_LIBRARY_RELEASE"
-    description: "Path to a library."
-    settings:
-      SearchFramework: "NEVER"
-      SearchAppBundle: "NEVER"
-      CMAKE_FIND_USE_CMAKE_PATH: true
-      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
-      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
-      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
-      CMAKE_FIND_USE_INSTALL_PREFIX: true
-    names:
-      - "z"
-      - "zlib"
-      - "zdll"
-      - "zlib1"
-      - "zlibstatic"
-      - "zlibwapi"
-      - "zlibvc"
-      - "zlibstat"
-    candidate_directories:
-      - "/home/ankit/.config/Code/User/globalStorage/github.copilot-chat/debugCommand/lib/"
-      - "/home/ankit/.config/Code/User/globalStorage/github.copilot-chat/debugCommand/"
-      - "/home/ankit/.config/Code/User/globalStorage/github.copilot-chat/copilotCli/lib/"
-      - "/home/ankit/.config/Code/User/globalStorage/github.copilot-chat/copilotCli/"
-      - "/home/ankit/.nvm/versions/node/v20.20.0/bin/lib/"
-      - "/home/ankit/.nvm/versions/node/v20.20.0/bin/"
-      - "/usr/local/sbin/lib/"
-      - "/usr/local/sbin/"
-      - "/usr/local/bin/lib/"
-      - "/usr/local/bin/"
-      - "/usr/sbin/lib/"
-      - "/usr/sbin/"
-      - "/usr/bin/lib/"
-      - "/usr/bin/"
-      - "/sbin/lib/"
-      - "/sbin/"
-      - "/bin/lib/"
-      - "/bin/"
-      - "/usr/games/lib/"
-      - "/usr/games/"
-      - "/usr/local/games/lib/"
-      - "/usr/local/games/"
-      - "/snap/bin/lib/"
-      - "/snap/bin/"
-      - "/home/ankit/.lmstudio/bin/lib/"
-      - "/home/ankit/.lmstudio/bin/"
-      - "/usr/local/go/bin/lib/"
-      - "/usr/local/go/bin/"
-      - "/usr/local/lib/x86_64-linux-gnu/lib/"
-      - "/usr/local/lib/x86_64-linux-gnu/"
-      - "/usr/local/lib/lib/"
-      - "/usr/local/lib/"
-      - "/usr/local/lib/"
-      - "/usr/local/"
-      - "/usr/lib/x86_64-linux-gnu/lib/"
-      - "/usr/lib/x86_64-linux-gnu/"
-      - "/usr/lib/lib/"
-      - "/usr/lib/"
-      - "/usr/lib/"
-      - "/usr/"
-      - "/lib/x86_64-linux-gnu/lib/"
-      - "/lib/x86_64-linux-gnu/"
-      - "/lib/lib/"
-      - "/lib/"
-      - "/usr/X11R6/lib/x86_64-linux-gnu/lib/"
-      - "/usr/X11R6/lib/x86_64-linux-gnu/"
-      - "/usr/X11R6/lib/lib/"
-      - "/usr/X11R6/lib/"
-      - "/usr/X11R6/lib/"
-      - "/usr/X11R6/"
-      - "/usr/pkg/lib/x86_64-linux-gnu/lib/"
-      - "/usr/pkg/lib/x86_64-linux-gnu/"
-      - "/usr/pkg/lib/lib/"
-      - "/usr/pkg/lib/"
-      - "/usr/pkg/lib/"
-      - "/usr/pkg/"
-      - "/opt/lib/x86_64-linux-gnu/lib/"
-      - "/opt/lib/x86_64-linux-gnu/"
-      - "/opt/lib/lib/"
-      - "/opt/lib/"
-      - "/opt/lib/"
-      - "/opt/"
-      - "/usr/lib/X11/lib/"
-      - "/usr/lib/X11/"
-      - "/zlib/lib/"
-      - "/zlib/"
-    searched_directories:
-      - "/home/ankit/.config/Code/User/globalStorage/github.copilot-chat/debugCommand/lib/"
-      - "/home/ankit/.config/Code/User/globalStorage/github.copilot-chat/debugCommand/lib/"
-      - "/home/ankit/.config/Code/User/globalStorage/github.copilot-chat/debugCommand/lib/"
-      - "/home/ankit/.config/Code/User/globalStorage/github.copilot-chat/debugCommand/lib/"
-      - "/home/ankit/.config/Code/User/globalStorage/github.copilot-chat/debugCommand/lib/"
-      - "/home/ankit/.config/Code/User/globalStorage/github.copilot-chat/debugCommand/lib/"
-      - "/home/ankit/.config/Code/User/globalStorage/github.copilot-chat/debugCommand/lib/"
-      - "/home/ankit/.config/Code/User/globalStorage/github.copilot-chat/debugCommand/lib/"
-      - "/home/ankit/.config/Code/User/globalStorage/github.copilot-chat/debugCommand/"
-      - "/home/ankit/.config/Code/User/globalStorage/github.copilot-chat/debugCommand/"
-      - "/home/ankit/.config/Code/User/globalStorage/github.copilot-chat/debugCommand/"
-      - "/home/ankit/.config/Code/User/globalStorage/github.copilot-chat/debugCommand/"
-      - "/home/ankit/.config/Code/User/globalStorage/github.copilot-chat/debugCommand/"
-      - "/home/ankit/.config/Code/User/globalStorage/github.copilot-chat/debugCommand/"
-      - "/home/ankit/.config/Code/User/globalStorage/github.copilot-chat/debugCommand/"
-      - "/home/ankit/.config/Code/User/globalStorage/github.copilot-chat/debugCommand/"
-      - "/home/ankit/.config/Code/User/globalStorage/github.copilot-chat/copilotCli/lib/"
-      - "/home/ankit/.config/Code/User/globalStorage/github.copilot-chat/copilotCli/lib/"
-      - "/home/ankit/.config/Code/User/globalStorage/github.copilot-chat/copilotCli/lib/"
-      - "/home/ankit/.config/Code/User/globalStorage/github.copilot-chat/copilotCli/lib/"
-      - "/home/ankit/.config/Code/User/globalStorage/github.copilot-chat/copilotCli/lib/"
-      - "/home/ankit/.config/Code/User/globalStorage/github.copilot-chat/copilotCli/lib/"
-      - "/home/ankit/.config/Code/User/globalStorage/github.copilot-chat/copilotCli/lib/"
-      - "/home/ankit/.config/Code/User/globalStorage/github.copilot-chat/copilotCli/lib/"
-      - "/home/ankit/.config/Code/User/globalStorage/github.copilot-chat/copilotCli/"
-      - "/home/ankit/.config/Code/User/globalStorage/github.copilot-chat/copilotCli/"
-      - "/home/ankit/.config/Code/User/globalStorage/github.copilot-chat/copilotCli/"
-      - "/home/ankit/.config/Code/User/globalStorage/github.copilot-chat/copilotCli/"
-      - "/home/ankit/.config/Code/User/globalStorage/github.copilot-chat/copilotCli/"
-      - "/home/ankit/.config/Code/User/globalStorage/github.copilot-chat/copilotCli/"
-      - "/home/ankit/.config/Code/User/globalStorage/github.copilot-chat/copilotCli/"
-      - "/home/ankit/.config/Code/User/globalStorage/github.copilot-chat/copilotCli/"
-      - "/home/ankit/.nvm/versions/node/v20.20.0/bin/lib/"
-      - "/home/ankit/.nvm/versions/node/v20.20.0/bin/lib/"
-      - "/home/ankit/.nvm/versions/node/v20.20.0/bin/lib/"
-      - "/home/ankit/.nvm/versions/node/v20.20.0/bin/lib/"
-      - "/home/ankit/.nvm/versions/node/v20.20.0/bin/lib/"
-      - "/home/ankit/.nvm/versions/node/v20.20.0/bin/lib/"
-      - "/home/ankit/.nvm/versions/node/v20.20.0/bin/lib/"
-      - "/home/ankit/.nvm/versions/node/v20.20.0/bin/lib/"
-      - "/home/ankit/.nvm/versions/node/v20.20.0/bin/"
-      - "/home/ankit/.nvm/versions/node/v20.20.0/bin/"
-      - "/home/ankit/.nvm/versions/node/v20.20.0/bin/"
-      - "/home/ankit/.nvm/versions/node/v20.20.0/bin/"
-      - "/home/ankit/.nvm/versions/node/v20.20.0/bin/"
-      - "/home/ankit/.nvm/versions/node/v20.20.0/bin/"
-      - "/home/ankit/.nvm/versions/node/v20.20.0/bin/"
-      - "/home/ankit/.nvm/versions/node/v20.20.0/bin/"
-      - "/usr/local/sbin/lib/"
-      - "/usr/local/sbin/lib/"
-      - "/usr/local/sbin/lib/"
-      - "/usr/local/sbin/lib/"
-      - "/usr/local/sbin/lib/"
-      - "/usr/local/sbin/lib/"
-      - "/usr/local/sbin/lib/"
-      - "/usr/local/sbin/lib/"
-      - "/usr/local/sbin/"
-      - "/usr/local/sbin/"
-      - "/usr/local/sbin/"
-      - "/usr/local/sbin/"
-      - "/usr/local/sbin/"
-      - "/usr/local/sbin/"
-      - "/usr/local/sbin/"
-      - "/usr/local/sbin/"
-      - "/usr/local/bin/lib/"
-      - "/usr/local/bin/lib/"
-      - "/usr/local/bin/lib/"
-      - "/usr/local/bin/lib/"
-      - "/usr/local/bin/lib/"
-      - "/usr/local/bin/lib/"
-      - "/usr/local/bin/lib/"
-      - "/usr/local/bin/lib/"
-      - "/usr/local/bin/"
-      - "/usr/local/bin/"
-      - "/usr/local/bin/"
-      - "/usr/local/bin/"
-      - "/usr/local/bin/"
-      - "/usr/local/bin/"
-      - "/usr/local/bin/"
-      - "/usr/local/bin/"
-      - "/usr/sbin/lib/"
-      - "/usr/sbin/lib/"
-      - "/usr/sbin/lib/"
-      - "/usr/sbin/lib/"
-      - "/usr/sbin/lib/"
-      - "/usr/sbin/lib/"
-      - "/usr/sbin/lib/"
-      - "/usr/sbin/lib/"
-      - "/usr/sbin/"
-      - "/usr/sbin/"
-      - "/usr/sbin/"
-      - "/usr/sbin/"
-      - "/usr/sbin/"
-      - "/usr/sbin/"
-      - "/usr/sbin/"
-      - "/usr/sbin/"
-      - "/usr/bin/lib/"
-      - "/usr/bin/lib/"
-      - "/usr/bin/lib/"
-      - "/usr/bin/lib/"
-      - "/usr/bin/lib/"
-      - "/usr/bin/lib/"
-      - "/usr/bin/lib/"
-      - "/usr/bin/lib/"
-      - "/usr/bin/"
-      - "/usr/bin/"
-      - "/usr/bin/"
-      - "/usr/bin/"
-      - "/usr/bin/"
-      - "/usr/bin/"
-      - "/usr/bin/"
-      - "/usr/bin/"
-      - "/sbin/lib/"
-      - "/sbin/lib/"
-      - "/sbin/lib/"
-      - "/sbin/lib/"
-      - "/sbin/lib/"
-      - "/sbin/lib/"
-      - "/sbin/lib/"
-      - "/sbin/lib/"
-      - "/sbin/"
-      - "/sbin/"
-      - "/sbin/"
-      - "/sbin/"
-      - "/sbin/"
-      - "/sbin/"
-      - "/sbin/"
-      - "/sbin/"
-      - "/bin/lib/"
-      - "/bin/lib/"
-      - "/bin/lib/"
-      - "/bin/lib/"
-      - "/bin/lib/"
-      - "/bin/lib/"
-      - "/bin/lib/"
-      - "/bin/lib/"
-      - "/bin/"
-      - "/bin/"
-      - "/bin/"
-      - "/bin/"
-      - "/bin/"
-      - "/bin/"
-      - "/bin/"
-      - "/bin/"
-      - "/usr/games/lib/"
-      - "/usr/games/lib/"
-      - "/usr/games/lib/"
-      - "/usr/games/lib/"
-      - "/usr/games/lib/"
-      - "/usr/games/lib/"
-      - "/usr/games/lib/"
-      - "/usr/games/lib/"
-      - "/usr/games/"
-      - "/usr/games/"
-      - "/usr/games/"
-      - "/usr/games/"
-      - "/usr/games/"
-      - "/usr/games/"
-      - "/usr/games/"
-      - "/usr/games/"
-      - "/usr/local/games/lib/"
-      - "/usr/local/games/lib/"
-      - "/usr/local/games/lib/"
-      - "/usr/local/games/lib/"
-      - "/usr/local/games/lib/"
-      - "/usr/local/games/lib/"
-      - "/usr/local/games/lib/"
-      - "/usr/local/games/lib/"
-      - "/usr/local/games/"
-      - "/usr/local/games/"
-      - "/usr/local/games/"
-      - "/usr/local/games/"
-      - "/usr/local/games/"
-      - "/usr/local/games/"
-      - "/usr/local/games/"
-      - "/usr/local/games/"
-      - "/snap/bin/lib/"
-      - "/snap/bin/lib/"
-      - "/snap/bin/lib/"
-      - "/snap/bin/lib/"
-      - "/snap/bin/lib/"
-      - "/snap/bin/lib/"
-      - "/snap/bin/lib/"
-      - "/snap/bin/lib/"
-      - "/snap/bin/"
-      - "/snap/bin/"
-      - "/snap/bin/"
-      - "/snap/bin/"
-      - "/snap/bin/"
-      - "/snap/bin/"
-      - "/snap/bin/"
-      - "/snap/bin/"
-      - "/home/ankit/.lmstudio/bin/lib/"
-      - "/home/ankit/.lmstudio/bin/lib/"
-      - "/home/ankit/.lmstudio/bin/lib/"
-      - "/home/ankit/.lmstudio/bin/lib/"
-      - "/home/ankit/.lmstudio/bin/lib/"
-      - "/home/ankit/.lmstudio/bin/lib/"
-      - "/home/ankit/.lmstudio/bin/lib/"
-      - "/home/ankit/.lmstudio/bin/lib/"
-      - "/home/ankit/.lmstudio/bin/"
-      - "/home/ankit/.lmstudio/bin/"
-      - "/home/ankit/.lmstudio/bin/"
-      - "/home/ankit/.lmstudio/bin/"
-      - "/home/ankit/.lmstudio/bin/"
-      - "/home/ankit/.lmstudio/bin/"
-      - "/home/ankit/.lmstudio/bin/"
-      - "/home/ankit/.lmstudio/bin/"
-      - "/usr/local/go/bin/lib/"
-      - "/usr/local/go/bin/lib/"
-      - "/usr/local/go/bin/lib/"
-      - "/usr/local/go/bin/lib/"
-      - "/usr/local/go/bin/lib/"
-      - "/usr/local/go/bin/lib/"
-      - "/usr/local/go/bin/lib/"
-      - "/usr/local/go/bin/lib/"
-      - "/usr/local/go/bin/"
-      - "/usr/local/go/bin/"
-      - "/usr/local/go/bin/"
-      - "/usr/local/go/bin/"
-      - "/usr/local/go/bin/"
-      - "/usr/local/go/bin/"
-      - "/usr/local/go/bin/"
-      - "/usr/local/go/bin/"
-      - "/usr/local/lib/x86_64-linux-gnu/lib/"
-      - "/usr/local/lib/x86_64-linux-gnu/lib/"
-      - "/usr/local/lib/x86_64-linux-gnu/lib/"
-      - "/usr/local/lib/x86_64-linux-gnu/lib/"
-      - "/usr/local/lib/x86_64-linux-gnu/lib/"
-      - "/usr/local/lib/x86_64-linux-gnu/lib/"
-      - "/usr/local/lib/x86_64-linux-gnu/lib/"
-      - "/usr/local/lib/x86_64-linux-gnu/lib/"
-      - "/usr/local/lib/x86_64-linux-gnu/"
-      - "/usr/local/lib/x86_64-linux-gnu/"
-      - "/usr/local/lib/x86_64-linux-gnu/"
-      - "/usr/local/lib/x86_64-linux-gnu/"
-      - "/usr/local/lib/x86_64-linux-gnu/"
-      - "/usr/local/lib/x86_64-linux-gnu/"
-      - "/usr/local/lib/x86_64-linux-gnu/"
-      - "/usr/local/lib/x86_64-linux-gnu/"
-      - "/usr/local/lib/lib/"
-      - "/usr/local/lib/lib/"
-      - "/usr/local/lib/lib/"
-      - "/usr/local/lib/lib/"
-      - "/usr/local/lib/lib/"
-      - "/usr/local/lib/lib/"
-      - "/usr/local/lib/lib/"
-      - "/usr/local/lib/lib/"
-      - "/usr/local/lib/"
-      - "/usr/local/lib/"
-      - "/usr/local/lib/"
-      - "/usr/local/lib/"
-      - "/usr/local/lib/"
-      - "/usr/local/lib/"
-      - "/usr/local/lib/"
-      - "/usr/local/lib/"
-      - "/usr/local/lib/"
-      - "/usr/local/lib/"
-      - "/usr/local/lib/"
-      - "/usr/local/lib/"
-      - "/usr/local/lib/"
-      - "/usr/local/lib/"
-      - "/usr/local/lib/"
-      - "/usr/local/lib/"
-      - "/usr/local/"
-      - "/usr/local/"
-      - "/usr/local/"
-      - "/usr/local/"
-      - "/usr/local/"
-      - "/usr/local/"
-      - "/usr/local/"
-      - "/usr/local/"
-      - "/usr/lib/x86_64-linux-gnu/lib/"
-      - "/usr/lib/x86_64-linux-gnu/lib/"
-      - "/usr/lib/x86_64-linux-gnu/lib/"
-      - "/usr/lib/x86_64-linux-gnu/lib/"
-      - "/usr/lib/x86_64-linux-gnu/lib/"
-      - "/usr/lib/x86_64-linux-gnu/lib/"
-      - "/usr/lib/x86_64-linux-gnu/lib/"
-      - "/usr/lib/x86_64-linux-gnu/lib/"
-    found: "/usr/lib/x86_64-linux-gnu/libz.so"
-    search_context:
-      ENV{PATH}:
-        - "/home/ankit/.config/Code/User/globalStorage/github.copilot-chat/debugCommand"
-        - "/home/ankit/.config/Code/User/globalStorage/github.copilot-chat/copilotCli"
-        - "/home/ankit/.nvm/versions/node/v20.20.0/bin"
-        - "/usr/local/sbin"
-        - "/usr/local/bin"
-        - "/usr/sbin"
-        - "/usr/bin"
-        - "/sbin"
-        - "/bin"
-        - "/usr/games"
-        - "/usr/local/games"
-        - "/snap/bin"
-        - "/snap/bin"
-        - "/home/ankit/.lmstudio/bin"
-        - "/usr/local/go/bin"
-        - "/home/ankit/.lmstudio/bin"
-        - "/usr/local/go/bin"
-      CMAKE_INSTALL_PREFIX: "/usr/local"
-      CMAKE_SYSTEM_PREFIX_PATH:
-        - "/usr/local"
-        - "/usr"
-        - "/"
-        - "/usr"
-        - "/usr/local"
-        - "/usr/X11R6"
-        - "/usr/pkg"
-        - "/opt"
-      CMAKE_SYSTEM_LIBRARY_PATH:
-        - "/usr/lib/X11"
-  -
-    kind: "find-v1"
-    backtrace:
-      - "/usr/share/cmake-4.2/Modules/FindZLIB.cmake:196 (find_library)"
-      - "CMakeLists.txt:19 (find_package)"
-    mode: "library"
-    variable: "ZLIB_LIBRARY_DEBUG"
-    description: "Path to a library."
-    settings:
-      SearchFramework: "NEVER"
-      SearchAppBundle: "NEVER"
-      CMAKE_FIND_USE_CMAKE_PATH: true
-      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
-      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
-      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
-      CMAKE_FIND_USE_INSTALL_PREFIX: true
-    names:
-      - "zd"
-      - "zlibd"
-      - "zdlld"
-      - "zlibd1"
-      - "zlib1d"
-      - "zlibstaticd"
-      - "zlibwapid"
-      - "zlibvcd"
-      - "zlibstatd"
-    candidate_directories:
-      - "/home/ankit/.config/Code/User/globalStorage/github.copilot-chat/debugCommand/lib/"
-      - "/home/ankit/.config/Code/User/globalStorage/github.copilot-chat/debugCommand/"
-      - "/home/ankit/.config/Code/User/globalStorage/github.copilot-chat/copilotCli/lib/"
-      - "/home/ankit/.config/Code/User/globalStorage/github.copilot-chat/copilotCli/"
-      - "/home/ankit/.nvm/versions/node/v20.20.0/bin/lib/"
-      - "/home/ankit/.nvm/versions/node/v20.20.0/bin/"
-      - "/usr/local/sbin/lib/"
-      - "/usr/local/sbin/"
-      - "/usr/local/bin/lib/"
-      - "/usr/local/bin/"
-      - "/usr/sbin/lib/"
-      - "/usr/sbin/"
-      - "/usr/bin/lib/"
-      - "/usr/bin/"
-      - "/sbin/lib/"
-      - "/sbin/"
-      - "/bin/lib/"
-      - "/bin/"
-      - "/usr/games/lib/"
-      - "/usr/games/"
-      - "/usr/local/games/lib/"
-      - "/usr/local/games/"
-      - "/snap/bin/lib/"
-      - "/snap/bin/"
-      - "/home/ankit/.lmstudio/bin/lib/"
-      - "/home/ankit/.lmstudio/bin/"
-      - "/usr/local/go/bin/lib/"
-      - "/usr/local/go/bin/"
-      - "/usr/local/lib/x86_64-linux-gnu/lib/"
-      - "/usr/local/lib/x86_64-linux-gnu/"
-      - "/usr/local/lib/lib/"
-      - "/usr/local/lib/"
-      - "/usr/local/lib/"
-      - "/usr/local/"
-      - "/usr/lib/x86_64-linux-gnu/lib/"
-      - "/usr/lib/x86_64-linux-gnu/"
-      - "/usr/lib/lib/"
-      - "/usr/lib/"
-      - "/usr/lib/"
-      - "/usr/"
-      - "/lib/x86_64-linux-gnu/lib/"
-      - "/lib/x86_64-linux-gnu/"
-      - "/lib/lib/"
-      - "/lib/"
-      - "/usr/X11R6/lib/x86_64-linux-gnu/lib/"
-      - "/usr/X11R6/lib/x86_64-linux-gnu/"
-      - "/usr/X11R6/lib/lib/"
-      - "/usr/X11R6/lib/"
-      - "/usr/X11R6/lib/"
-      - "/usr/X11R6/"
-      - "/usr/pkg/lib/x86_64-linux-gnu/lib/"
-      - "/usr/pkg/lib/x86_64-linux-gnu/"
-      - "/usr/pkg/lib/lib/"
-      - "/usr/pkg/lib/"
-      - "/usr/pkg/lib/"
-      - "/usr/pkg/"
-      - "/opt/lib/x86_64-linux-gnu/lib/"
-      - "/opt/lib/x86_64-linux-gnu/"
-      - "/opt/lib/lib/"
-      - "/opt/lib/"
-      - "/opt/lib/"
-      - "/opt/"
-      - "/usr/lib/X11/lib/"
-      - "/usr/lib/X11/"
-      - "/zlib/lib/"
-      - "/zlib/"
-    searched_directories:
-      - "/home/ankit/.config/Code/User/globalStorage/github.copilot-chat/debugCommand/lib/"
-      - "/home/ankit/.config/Code/User/globalStorage/github.copilot-chat/debugCommand/lib/"
-      - "/home/ankit/.config/Code/User/globalStorage/github.copilot-chat/debugCommand/lib/"
-      - "/home/ankit/.config/Code/User/globalStorage/github.copilot-chat/debugCommand/lib/"
-      - "/home/ankit/.config/Code/User/globalStorage/github.copilot-chat/debugCommand/lib/"
-      - "/home/ankit/.config/Code/User/globalStorage/github.copilot-chat/debugCommand/lib/"
-      - "/home/ankit/.config/Code/User/globalStorage/github.copilot-chat/debugCommand/lib/"
-      - "/home/ankit/.config/Code/User/globalStorage/github.copilot-chat/debugCommand/lib/"
-      - "/home/ankit/.config/Code/User/globalStorage/github.copilot-chat/debugCommand/lib/"
-      - "/home/ankit/.config/Code/User/globalStorage/github.copilot-chat/debugCommand/"
-      - "/home/ankit/.config/Code/User/globalStorage/github.copilot-chat/debugCommand/"
-      - "/home/ankit/.config/Code/User/globalStorage/github.copilot-chat/debugCommand/"
-      - "/home/ankit/.config/Code/User/globalStorage/github.copilot-chat/debugCommand/"
-      - "/home/ankit/.config/Code/User/globalStorage/github.copilot-chat/debugCommand/"
-      - "/home/ankit/.config/Code/User/globalStorage/github.copilot-chat/debugCommand/"
-      - "/home/ankit/.config/Code/User/globalStorage/github.copilot-chat/debugCommand/"
-      - "/home/ankit/.config/Code/User/globalStorage/github.copilot-chat/debugCommand/"
-      - "/home/ankit/.config/Code/User/globalStorage/github.copilot-chat/debugCommand/"
-      - "/home/ankit/.config/Code/User/globalStorage/github.copilot-chat/copilotCli/lib/"
-      - "/home/ankit/.config/Code/User/globalStorage/github.copilot-chat/copilotCli/lib/"
-      - "/home/ankit/.config/Code/User/globalStorage/github.copilot-chat/copilotCli/lib/"
-      - "/home/ankit/.config/Code/User/globalStorage/github.copilot-chat/copilotCli/lib/"
-      - "/home/ankit/.config/Code/User/globalStorage/github.copilot-chat/copilotCli/lib/"
-      - "/home/ankit/.config/Code/User/globalStorage/github.copilot-chat/copilotCli/lib/"
-      - "/home/ankit/.config/Code/User/globalStorage/github.copilot-chat/copilotCli/lib/"
-      - "/home/ankit/.config/Code/User/globalStorage/github.copilot-chat/copilotCli/lib/"
-      - "/home/ankit/.config/Code/User/globalStorage/github.copilot-chat/copilotCli/lib/"
-      - "/home/ankit/.config/Code/User/globalStorage/github.copilot-chat/copilotCli/"
-      - "/home/ankit/.config/Code/User/globalStorage/github.copilot-chat/copilotCli/"
-      - "/home/ankit/.config/Code/User/globalStorage/github.copilot-chat/copilotCli/"
-      - "/home/ankit/.config/Code/User/globalStorage/github.copilot-chat/copilotCli/"
-      - "/home/ankit/.config/Code/User/globalStorage/github.copilot-chat/copilotCli/"
-      - "/home/ankit/.config/Code/User/globalStorage/github.copilot-chat/copilotCli/"
-      - "/home/ankit/.config/Code/User/globalStorage/github.copilot-chat/copilotCli/"
-      - "/home/ankit/.config/Code/User/globalStorage/github.copilot-chat/copilotCli/"
-      - "/home/ankit/.config/Code/User/globalStorage/github.copilot-chat/copilotCli/"
-      - "/home/ankit/.nvm/versions/node/v20.20.0/bin/lib/"
-      - "/home/ankit/.nvm/versions/node/v20.20.0/bin/lib/"
-      - "/home/ankit/.nvm/versions/node/v20.20.0/bin/lib/"
-      - "/home/ankit/.nvm/versions/node/v20.20.0/bin/lib/"
-      - "/home/ankit/.nvm/versions/node/v20.20.0/bin/lib/"
-      - "/home/ankit/.nvm/versions/node/v20.20.0/bin/lib/"
-      - "/home/ankit/.nvm/versions/node/v20.20.0/bin/lib/"
-      - "/home/ankit/.nvm/versions/node/v20.20.0/bin/lib/"
-      - "/home/ankit/.nvm/versions/node/v20.20.0/bin/lib/"
-      - "/home/ankit/.nvm/versions/node/v20.20.0/bin/"
-      - "/home/ankit/.nvm/versions/node/v20.20.0/bin/"
-      - "/home/ankit/.nvm/versions/node/v20.20.0/bin/"
-      - "/home/ankit/.nvm/versions/node/v20.20.0/bin/"
-      - "/home/ankit/.nvm/versions/node/v20.20.0/bin/"
-      - "/home/ankit/.nvm/versions/node/v20.20.0/bin/"
-      - "/home/ankit/.nvm/versions/node/v20.20.0/bin/"
-      - "/home/ankit/.nvm/versions/node/v20.20.0/bin/"
-      - "/home/ankit/.nvm/versions/node/v20.20.0/bin/"
-      - "/usr/local/sbin/lib/"
-      - "/usr/local/sbin/lib/"
-      - "/usr/local/sbin/lib/"
-      - "/usr/local/sbin/lib/"
-      - "/usr/local/sbin/lib/"
-      - "/usr/local/sbin/lib/"
-      - "/usr/local/sbin/lib/"
-      - "/usr/local/sbin/lib/"
-      - "/usr/local/sbin/lib/"
-      - "/usr/local/sbin/"
-      - "/usr/local/sbin/"
-      - "/usr/local/sbin/"
-      - "/usr/local/sbin/"
-      - "/usr/local/sbin/"
-      - "/usr/local/sbin/"
-      - "/usr/local/sbin/"
-      - "/usr/local/sbin/"
-      - "/usr/local/sbin/"
-      - "/usr/local/bin/lib/"
-      - "/usr/local/bin/lib/"
-      - "/usr/local/bin/lib/"
-      - "/usr/local/bin/lib/"
-      - "/usr/local/bin/lib/"
-      - "/usr/local/bin/lib/"
-      - "/usr/local/bin/lib/"
-      - "/usr/local/bin/lib/"
-      - "/usr/local/bin/lib/"
-      - "/usr/local/bin/"
-      - "/usr/local/bin/"
-      - "/usr/local/bin/"
-      - "/usr/local/bin/"
-      - "/usr/local/bin/"
-      - "/usr/local/bin/"
-      - "/usr/local/bin/"
-      - "/usr/local/bin/"
-      - "/usr/local/bin/"
-      - "/usr/sbin/lib/"
-      - "/usr/sbin/lib/"
-      - "/usr/sbin/lib/"
-      - "/usr/sbin/lib/"
-      - "/usr/sbin/lib/"
-      - "/usr/sbin/lib/"
-      - "/usr/sbin/lib/"
-      - "/usr/sbin/lib/"
-      - "/usr/sbin/lib/"
-      - "/usr/sbin/"
-      - "/usr/sbin/"
-      - "/usr/sbin/"
-      - "/usr/sbin/"
-      - "/usr/sbin/"
-      - "/usr/sbin/"
-      - "/usr/sbin/"
-      - "/usr/sbin/"
-      - "/usr/sbin/"
-      - "/usr/bin/lib/"
-      - "/usr/bin/lib/"
-      - "/usr/bin/lib/"
-      - "/usr/bin/lib/"
-      - "/usr/bin/lib/"
-      - "/usr/bin/lib/"
-      - "/usr/bin/lib/"
-      - "/usr/bin/lib/"
-      - "/usr/bin/lib/"
-      - "/usr/bin/"
-      - "/usr/bin/"
-      - "/usr/bin/"
-      - "/usr/bin/"
-      - "/usr/bin/"
-      - "/usr/bin/"
-      - "/usr/bin/"
-      - "/usr/bin/"
-      - "/usr/bin/"
-      - "/sbin/lib/"
-      - "/sbin/lib/"
-      - "/sbin/lib/"
-      - "/sbin/lib/"
-      - "/sbin/lib/"
-      - "/sbin/lib/"
-      - "/sbin/lib/"
-      - "/sbin/lib/"
-      - "/sbin/lib/"
-      - "/sbin/"
-      - "/sbin/"
-      - "/sbin/"
-      - "/sbin/"
-      - "/sbin/"
-      - "/sbin/"
-      - "/sbin/"
-      - "/sbin/"
-      - "/sbin/"
-      - "/bin/lib/"
-      - "/bin/lib/"
-      - "/bin/lib/"
-      - "/bin/lib/"
-      - "/bin/lib/"
-      - "/bin/lib/"
-      - "/bin/lib/"
-      - "/bin/lib/"
-      - "/bin/lib/"
-      - "/bin/"
-      - "/bin/"
-      - "/bin/"
-      - "/bin/"
-      - "/bin/"
-      - "/bin/"
-      - "/bin/"
-      - "/bin/"
-      - "/bin/"
-      - "/usr/games/lib/"
-      - "/usr/games/lib/"
-      - "/usr/games/lib/"
-      - "/usr/games/lib/"
-      - "/usr/games/lib/"
-      - "/usr/games/lib/"
-      - "/usr/games/lib/"
-      - "/usr/games/lib/"
-      - "/usr/games/lib/"
-      - "/usr/games/"
-      - "/usr/games/"
-      - "/usr/games/"
-      - "/usr/games/"
-      - "/usr/games/"
-      - "/usr/games/"
-      - "/usr/games/"
-      - "/usr/games/"
-      - "/usr/games/"
-      - "/usr/local/games/lib/"
-      - "/usr/local/games/lib/"
-      - "/usr/local/games/lib/"
-      - "/usr/local/games/lib/"
-      - "/usr/local/games/lib/"
-      - "/usr/local/games/lib/"
-      - "/usr/local/games/lib/"
-      - "/usr/local/games/lib/"
-      - "/usr/local/games/lib/"
-      - "/usr/local/games/"
-      - "/usr/local/games/"
-      - "/usr/local/games/"
-      - "/usr/local/games/"
-      - "/usr/local/games/"
-      - "/usr/local/games/"
-      - "/usr/local/games/"
-      - "/usr/local/games/"
-      - "/usr/local/games/"
-      - "/snap/bin/lib/"
-      - "/snap/bin/lib/"
-      - "/snap/bin/lib/"
-      - "/snap/bin/lib/"
-      - "/snap/bin/lib/"
-      - "/snap/bin/lib/"
-      - "/snap/bin/lib/"
-      - "/snap/bin/lib/"
-      - "/snap/bin/lib/"
-      - "/snap/bin/"
-      - "/snap/bin/"
-      - "/snap/bin/"
-      - "/snap/bin/"
-      - "/snap/bin/"
-      - "/snap/bin/"
-      - "/snap/bin/"
-      - "/snap/bin/"
-      - "/snap/bin/"
-      - "/home/ankit/.lmstudio/bin/lib/"
-      - "/home/ankit/.lmstudio/bin/lib/"
-      - "/home/ankit/.lmstudio/bin/lib/"
-      - "/home/ankit/.lmstudio/bin/lib/"
-      - "/home/ankit/.lmstudio/bin/lib/"
-      - "/home/ankit/.lmstudio/bin/lib/"
-      - "/home/ankit/.lmstudio/bin/lib/"
-      - "/home/ankit/.lmstudio/bin/lib/"
-      - "/home/ankit/.lmstudio/bin/lib/"
-      - "/home/ankit/.lmstudio/bin/"
-      - "/home/ankit/.lmstudio/bin/"
-      - "/home/ankit/.lmstudio/bin/"
-      - "/home/ankit/.lmstudio/bin/"
-      - "/home/ankit/.lmstudio/bin/"
-      - "/home/ankit/.lmstudio/bin/"
-      - "/home/ankit/.lmstudio/bin/"
-      - "/home/ankit/.lmstudio/bin/"
-      - "/home/ankit/.lmstudio/bin/"
-      - "/usr/local/go/bin/lib/"
-      - "/usr/local/go/bin/lib/"
-      - "/usr/local/go/bin/lib/"
-      - "/usr/local/go/bin/lib/"
-      - "/usr/local/go/bin/lib/"
-      - "/usr/local/go/bin/lib/"
-      - "/usr/local/go/bin/lib/"
-      - "/usr/local/go/bin/lib/"
-      - "/usr/local/go/bin/lib/"
-      - "/usr/local/go/bin/"
-      - "/usr/local/go/bin/"
-      - "/usr/local/go/bin/"
-      - "/usr/local/go/bin/"
-      - "/usr/local/go/bin/"
-      - "/usr/local/go/bin/"
-      - "/usr/local/go/bin/"
-      - "/usr/local/go/bin/"
-      - "/usr/local/go/bin/"
-      - "/usr/local/lib/x86_64-linux-gnu/lib/"
-      - "/usr/local/lib/x86_64-linux-gnu/lib/"
-      - "/usr/local/lib/x86_64-linux-gnu/lib/"
-      - "/usr/local/lib/x86_64-linux-gnu/lib/"
-      - "/usr/local/lib/x86_64-linux-gnu/lib/"
-      - "/usr/local/lib/x86_64-linux-gnu/lib/"
-      - "/usr/local/lib/x86_64-linux-gnu/lib/"
-      - "/usr/local/lib/x86_64-linux-gnu/lib/"
-      - "/usr/local/lib/x86_64-linux-gnu/lib/"
-      - "/usr/local/lib/x86_64-linux-gnu/"
-      - "/usr/local/lib/x86_64-linux-gnu/"
-      - "/usr/local/lib/x86_64-linux-gnu/"
-      - "/usr/local/lib/x86_64-linux-gnu/"
-      - "/usr/local/lib/x86_64-linux-gnu/"
-      - "/usr/local/lib/x86_64-linux-gnu/"
-      - "/usr/local/lib/x86_64-linux-gnu/"
-      - "/usr/local/lib/x86_64-linux-gnu/"
-      - "/usr/local/lib/x86_64-linux-gnu/"
-      - "/usr/local/lib/lib/"
-      - "/usr/local/lib/lib/"
-      - "/usr/local/lib/lib/"
-      - "/usr/local/lib/lib/"
-      - "/usr/local/lib/lib/"
-      - "/usr/local/lib/lib/"
-      - "/usr/local/lib/lib/"
-      - "/usr/local/lib/lib/"
-      - "/usr/local/lib/lib/"
-      - "/usr/local/lib/"
-      - "/usr/local/lib/"
-      - "/usr/local/lib/"
-      - "/usr/local/lib/"
-      - "/usr/local/lib/"
-      - "/usr/local/lib/"
-      - "/usr/local/lib/"
-      - "/usr/local/lib/"
-      - "/usr/local/lib/"
-      - "/usr/local/lib/"
-      - "/usr/local/lib/"
-      - "/usr/local/lib/"
-      - "/usr/local/lib/"
-      - "/usr/local/lib/"
-      - "/usr/local/lib/"
-      - "/usr/local/lib/"
-      - "/usr/local/lib/"
-      - "/usr/local/lib/"
-      - "/usr/local/"
-      - "/usr/local/"
-      - "/usr/local/"
-      - "/usr/local/"
-      - "/usr/local/"
-      - "/usr/local/"
-      - "/usr/local/"
-      - "/usr/local/"
-      - "/usr/local/"
-      - "/usr/lib/x86_64-linux-gnu/lib/"
-      - "/usr/lib/x86_64-linux-gnu/lib/"
-      - "/usr/lib/x86_64-linux-gnu/lib/"
-      - "/usr/lib/x86_64-linux-gnu/lib/"
-      - "/usr/lib/x86_64-linux-gnu/lib/"
-      - "/usr/lib/x86_64-linux-gnu/lib/"
-      - "/usr/lib/x86_64-linux-gnu/lib/"
-      - "/usr/lib/x86_64-linux-gnu/lib/"
-      - "/usr/lib/x86_64-linux-gnu/lib/"
-      - "/usr/lib/x86_64-linux-gnu/"
-      - "/usr/lib/x86_64-linux-gnu/"
-      - "/usr/lib/x86_64-linux-gnu/"
-      - "/usr/lib/x86_64-linux-gnu/"
-      - "/usr/lib/x86_64-linux-gnu/"
-      - "/usr/lib/x86_64-linux-gnu/"
-      - "/usr/lib/x86_64-linux-gnu/"
-      - "/usr/lib/x86_64-linux-gnu/"
-      - "/usr/lib/x86_64-linux-gnu/"
-      - "/usr/lib/lib/"
-      - "/usr/lib/lib/"
-      - "/usr/lib/lib/"
-      - "/usr/lib/lib/"
-      - "/usr/lib/lib/"
-      - "/usr/lib/lib/"
-      - "/usr/lib/lib/"
-      - "/usr/lib/lib/"
-      - "/usr/lib/lib/"
-      - "/usr/lib/"
-      - "/usr/lib/"
-      - "/usr/lib/"
-      - "/usr/lib/"
-      - "/usr/lib/"
-      - "/usr/lib/"
-      - "/usr/lib/"
-      - "/usr/lib/"
-      - "/usr/lib/"
-      - "/usr/lib/"
-      - "/usr/lib/"
-      - "/usr/lib/"
-      - "/usr/lib/"
-      - "/usr/lib/"
-      - "/usr/lib/"
-      - "/usr/lib/"
-      - "/usr/lib/"
-      - "/usr/lib/"
-      - "/usr/"
-      - "/usr/"
-      - "/usr/"
-      - "/usr/"
-      - "/usr/"
-      - "/usr/"
-      - "/usr/"
-      - "/usr/"
-      - "/usr/"
-      - "/lib/x86_64-linux-gnu/lib/"
-      - "/lib/x86_64-linux-gnu/lib/"
-      - "/lib/x86_64-linux-gnu/lib/"
-      - "/lib/x86_64-linux-gnu/lib/"
-      - "/lib/x86_64-linux-gnu/lib/"
-      - "/lib/x86_64-linux-gnu/lib/"
-      - "/lib/x86_64-linux-gnu/lib/"
-      - "/lib/x86_64-linux-gnu/lib/"
-      - "/lib/x86_64-linux-gnu/lib/"
-      - "/lib/x86_64-linux-gnu/"
-      - "/lib/x86_64-linux-gnu/"
-      - "/lib/x86_64-linux-gnu/"
-      - "/lib/x86_64-linux-gnu/"
-      - "/lib/x86_64-linux-gnu/"
-      - "/lib/x86_64-linux-gnu/"
-      - "/lib/x86_64-linux-gnu/"
-      - "/lib/x86_64-linux-gnu/"
-      - "/lib/x86_64-linux-gnu/"
-      - "/lib/lib/"
-      - "/lib/lib/"
-      - "/lib/lib/"
-      - "/lib/lib/"
-      - "/lib/lib/"
-      - "/lib/lib/"
-      - "/lib/lib/"
-      - "/lib/lib/"
-      - "/lib/lib/"
-      - "/lib/"
-      - "/lib/"
-      - "/lib/"
-      - "/lib/"
-      - "/lib/"
-      - "/lib/"
-      - "/lib/"
-      - "/lib/"
-      - "/lib/"
-      - "/usr/X11R6/lib/x86_64-linux-gnu/lib/"
-      - "/usr/X11R6/lib/x86_64-linux-gnu/lib/"
-      - "/usr/X11R6/lib/x86_64-linux-gnu/lib/"
-      - "/usr/X11R6/lib/x86_64-linux-gnu/lib/"
-      - "/usr/X11R6/lib/x86_64-linux-gnu/lib/"
-      - "/usr/X11R6/lib/x86_64-linux-gnu/lib/"
-      - "/usr/X11R6/lib/x86_64-linux-gnu/lib/"
-      - "/usr/X11R6/lib/x86_64-linux-gnu/lib/"
-      - "/usr/X11R6/lib/x86_64-linux-gnu/lib/"
-      - "/usr/X11R6/lib/x86_64-linux-gnu/"
-      - "/usr/X11R6/lib/x86_64-linux-gnu/"
-      - "/usr/X11R6/lib/x86_64-linux-gnu/"
-      - "/usr/X11R6/lib/x86_64-linux-gnu/"
-      - "/usr/X11R6/lib/x86_64-linux-gnu/"
-      - "/usr/X11R6/lib/x86_64-linux-gnu/"
-      - "/usr/X11R6/lib/x86_64-linux-gnu/"
-      - "/usr/X11R6/lib/x86_64-linux-gnu/"
-      - "/usr/X11R6/lib/x86_64-linux-gnu/"
-      - "/usr/X11R6/lib/lib/"
-      - "/usr/X11R6/lib/lib/"
-      - "/usr/X11R6/lib/lib/"
-      - "/usr/X11R6/lib/lib/"
-      - "/usr/X11R6/lib/lib/"
-      - "/usr/X11R6/lib/lib/"
-      - "/usr/X11R6/lib/lib/"
-      - "/usr/X11R6/lib/lib/"
-      - "/usr/X11R6/lib/lib/"
-      - "/usr/X11R6/lib/"
-      - "/usr/X11R6/lib/"
-      - "/usr/X11R6/lib/"
-      - "/usr/X11R6/lib/"
-      - "/usr/X11R6/lib/"
-      - "/usr/X11R6/lib/"
-      - "/usr/X11R6/lib/"
-      - "/usr/X11R6/lib/"
-      - "/usr/X11R6/lib/"
-      - "/usr/X11R6/lib/"
-      - "/usr/X11R6/lib/"
-      - "/usr/X11R6/lib/"
-      - "/usr/X11R6/lib/"
-      - "/usr/X11R6/lib/"
-      - "/usr/X11R6/lib/"
-      - "/usr/X11R6/lib/"
-      - "/usr/X11R6/lib/"
-      - "/usr/X11R6/lib/"
-      - "/usr/X11R6/"
-      - "/usr/X11R6/"
-      - "/usr/X11R6/"
-      - "/usr/X11R6/"
-      - "/usr/X11R6/"
-      - "/usr/X11R6/"
-      - "/usr/X11R6/"
-      - "/usr/X11R6/"
-      - "/usr/X11R6/"
-      - "/usr/pkg/lib/x86_64-linux-gnu/lib/"
-      - "/usr/pkg/lib/x86_64-linux-gnu/lib/"
-      - "/usr/pkg/lib/x86_64-linux-gnu/lib/"
-      - "/usr/pkg/lib/x86_64-linux-gnu/lib/"
-      - "/usr/pkg/lib/x86_64-linux-gnu/lib/"
-      - "/usr/pkg/lib/x86_64-linux-gnu/lib/"
-      - "/usr/pkg/lib/x86_64-linux-gnu/lib/"
-      - "/usr/pkg/lib/x86_64-linux-gnu/lib/"
-      - "/usr/pkg/lib/x86_64-linux-gnu/lib/"
-      - "/usr/pkg/lib/x86_64-linux-gnu/"
-      - "/usr/pkg/lib/x86_64-linux-gnu/"
-      - "/usr/pkg/lib/x86_64-linux-gnu/"
-      - "/usr/pkg/lib/x86_64-linux-gnu/"
-      - "/usr/pkg/lib/x86_64-linux-gnu/"
-      - "/usr/pkg/lib/x86_64-linux-gnu/"
-      - "/usr/pkg/lib/x86_64-linux-gnu/"
-      - "/usr/pkg/lib/x86_64-linux-gnu/"
-      - "/usr/pkg/lib/x86_64-linux-gnu/"
-      - "/usr/pkg/lib/lib/"
-      - "/usr/pkg/lib/lib/"
-      - "/usr/pkg/lib/lib/"
-      - "/usr/pkg/lib/lib/"
-      - "/usr/pkg/lib/lib/"
-      - "/usr/pkg/lib/lib/"
-      - "/usr/pkg/lib/lib/"
-      - "/usr/pkg/lib/lib/"
-      - "/usr/pkg/lib/lib/"
-      - "/usr/pkg/lib/"
-      - "/usr/pkg/lib/"
-      - "/usr/pkg/lib/"
-      - "/usr/pkg/lib/"
-      - "/usr/pkg/lib/"
-      - "/usr/pkg/lib/"
-      - "/usr/pkg/lib/"
-      - "/usr/pkg/lib/"
-      - "/usr/pkg/lib/"
-      - "/usr/pkg/lib/"
-      - "/usr/pkg/lib/"
-      - "/usr/pkg/lib/"
-      - "/usr/pkg/lib/"
-      - "/usr/pkg/lib/"
-      - "/usr/pkg/lib/"
-      - "/usr/pkg/lib/"
-      - "/usr/pkg/lib/"
-      - "/usr/pkg/lib/"
-      - "/usr/pkg/"
-      - "/usr/pkg/"
-      - "/usr/pkg/"
-      - "/usr/pkg/"
-      - "/usr/pkg/"
-      - "/usr/pkg/"
-      - "/usr/pkg/"
-      - "/usr/pkg/"
-      - "/usr/pkg/"
-      - "/opt/lib/x86_64-linux-gnu/lib/"
-      - "/opt/lib/x86_64-linux-gnu/lib/"
-      - "/opt/lib/x86_64-linux-gnu/lib/"
-      - "/opt/lib/x86_64-linux-gnu/lib/"
-      - "/opt/lib/x86_64-linux-gnu/lib/"
-      - "/opt/lib/x86_64-linux-gnu/lib/"
-      - "/opt/lib/x86_64-linux-gnu/lib/"
-      - "/opt/lib/x86_64-linux-gnu/lib/"
-      - "/opt/lib/x86_64-linux-gnu/lib/"
-      - "/opt/lib/x86_64-linux-gnu/"
-      - "/opt/lib/x86_64-linux-gnu/"
-      - "/opt/lib/x86_64-linux-gnu/"
-      - "/opt/lib/x86_64-linux-gnu/"
-      - "/opt/lib/x86_64-linux-gnu/"
-      - "/opt/lib/x86_64-linux-gnu/"
-      - "/opt/lib/x86_64-linux-gnu/"
-      - "/opt/lib/x86_64-linux-gnu/"
-      - "/opt/lib/x86_64-linux-gnu/"
-      - "/opt/lib/lib/"
-      - "/opt/lib/lib/"
-      - "/opt/lib/lib/"
-      - "/opt/lib/lib/"
-      - "/opt/lib/lib/"
-      - "/opt/lib/lib/"
-      - "/opt/lib/lib/"
-      - "/opt/lib/lib/"
-      - "/opt/lib/lib/"
-      - "/opt/lib/"
-      - "/opt/lib/"
-      - "/opt/lib/"
-      - "/opt/lib/"
-      - "/opt/lib/"
-      - "/opt/lib/"
-      - "/opt/lib/"
-      - "/opt/lib/"
-      - "/opt/lib/"
-      - "/opt/lib/"
-      - "/opt/lib/"
-      - "/opt/lib/"
-      - "/opt/lib/"
-      - "/opt/lib/"
-      - "/opt/lib/"
-      - "/opt/lib/"
-      - "/opt/lib/"
-      - "/opt/lib/"
-      - "/opt/"
-      - "/opt/"
-      - "/opt/"
-      - "/opt/"
-      - "/opt/"
-      - "/opt/"
-      - "/opt/"
-      - "/opt/"
-      - "/opt/"
-      - "/usr/lib/X11/lib/"
-      - "/usr/lib/X11/lib/"
-      - "/usr/lib/X11/lib/"
-      - "/usr/lib/X11/lib/"
-      - "/usr/lib/X11/lib/"
-      - "/usr/lib/X11/lib/"
-      - "/usr/lib/X11/lib/"
-      - "/usr/lib/X11/lib/"
-      - "/usr/lib/X11/lib/"
-      - "/usr/lib/X11/"
-      - "/usr/lib/X11/"
-      - "/usr/lib/X11/"
-      - "/usr/lib/X11/"
-      - "/usr/lib/X11/"
-      - "/usr/lib/X11/"
-      - "/usr/lib/X11/"
-      - "/usr/lib/X11/"
-      - "/usr/lib/X11/"
-      - "/zlib/lib/"
-      - "/zlib/lib/"
-      - "/zlib/lib/"
-      - "/zlib/lib/"
-      - "/zlib/lib/"
-      - "/zlib/lib/"
-      - "/zlib/lib/"
-      - "/zlib/lib/"
-      - "/zlib/lib/"
-      - "/zlib/"
-      - "/zlib/"
-      - "/zlib/"
-      - "/zlib/"
-      - "/zlib/"
-      - "/zlib/"
-      - "/zlib/"
-      - "/zlib/"
-      - "/zlib/"
-    found: false
-    search_context:
-      ENV{PATH}:
-        - "/home/ankit/.config/Code/User/globalStorage/github.copilot-chat/debugCommand"
-        - "/home/ankit/.config/Code/User/globalStorage/github.copilot-chat/copilotCli"
-        - "/home/ankit/.nvm/versions/node/v20.20.0/bin"
-        - "/usr/local/sbin"
-        - "/usr/local/bin"
-        - "/usr/sbin"
-        - "/usr/bin"
-        - "/sbin"
-        - "/bin"
-        - "/usr/games"
-        - "/usr/local/games"
-        - "/snap/bin"
-        - "/snap/bin"
-        - "/home/ankit/.lmstudio/bin"
-        - "/usr/local/go/bin"
-        - "/home/ankit/.lmstudio/bin"
-        - "/usr/local/go/bin"
-      CMAKE_INSTALL_PREFIX: "/usr/local"
-      CMAKE_SYSTEM_PREFIX_PATH:
-        - "/usr/local"
-        - "/usr"
-        - "/"
-        - "/usr"
-        - "/usr/local"
-        - "/usr/X11R6"
-        - "/usr/pkg"
-        - "/opt"
-      CMAKE_SYSTEM_LIBRARY_PATH:
-        - "/usr/lib/X11"
 ...
