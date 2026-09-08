@@ -1,0 +1,7 @@
+{
+	"InstallScripts" : 
+	[
+		"/home/ankit/Code_purpose/ns3-crypto-integration/cmakeprac/build/cmake_install.cmake"
+	],
+	"Parallel" : false
+}

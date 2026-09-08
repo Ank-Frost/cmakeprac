@@ -1,0 +1,4 @@
+/home/ankit/Code_purpose/ns3-crypto-integration/cmakeprac/build/CMakeFiles/mymath.dir
+/home/ankit/Code_purpose/ns3-crypto-integration/cmakeprac/build/CMakeFiles/hello.dir
+/home/ankit/Code_purpose/ns3-crypto-integration/cmakeprac/build/CMakeFiles/edit_cache.dir
+/home/ankit/Code_purpose/ns3-crypto-integration/cmakeprac/build/CMakeFiles/rebuild_cache.dir
