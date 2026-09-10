@@ -87,14 +87,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ankit/Code_purpose/ns3-crypto-integration/cmakeprac/build/CMakeFiles /home/ankit/Code_purpose/ns3-crypto-integration/cmakeprac/build//CMakeFiles/progress.marks
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
+	cd /home/ankit/Code_purpose/ns3-crypto-integration/cmakeprac/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/ankit/Code_purpose/ns3-crypto-integration/cmakeprac/build/CMakeFiles /home/ankit/Code_purpose/ns3-crypto-integration/cmakeprac/build/mymathlib//CMakeFiles/progress.marks
+	cd /home/ankit/Code_purpose/ns3-crypto-integration/cmakeprac/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 mymathlib/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/ankit/Code_purpose/ns3-crypto-integration/cmakeprac/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 clean
+	cd /home/ankit/Code_purpose/ns3-crypto-integration/cmakeprac/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 mymathlib/clean
 .PHONY : clean
 
 # The main clean target
@@ -103,68 +103,56 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 preinstall
+	cd /home/ankit/Code_purpose/ns3-crypto-integration/cmakeprac/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 mymathlib/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 preinstall
+	cd /home/ankit/Code_purpose/ns3-crypto-integration/cmakeprac/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 mymathlib/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	$(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/ankit/Code_purpose/ns3-crypto-integration/cmakeprac/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
-#=============================================================================
-# Target rules for targets named hello
+# Convenience name for target.
+mymathlib/CMakeFiles/mymath.dir/rule:
+	cd /home/ankit/Code_purpose/ns3-crypto-integration/cmakeprac/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 mymathlib/CMakeFiles/mymath.dir/rule
+.PHONY : mymathlib/CMakeFiles/mymath.dir/rule
 
-# Build rule for target.
-hello: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 hello
-.PHONY : hello
-
-# fast build rule for target.
-hello/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/hello.dir/build.make CMakeFiles/hello.dir/build
-.PHONY : hello/fast
-
-#=============================================================================
-# Target rules for targets named mymath
-
-# Build rule for target.
-mymath: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 mymath
+# Convenience name for target.
+mymath: mymathlib/CMakeFiles/mymath.dir/rule
 .PHONY : mymath
 
 # fast build rule for target.
 mymath/fast:
-	$(MAKE) $(MAKESILENT) -f mymathlib/CMakeFiles/mymath.dir/build.make mymathlib/CMakeFiles/mymath.dir/build
+	cd /home/ankit/Code_purpose/ns3-crypto-integration/cmakeprac/build && $(MAKE) $(MAKESILENT) -f mymathlib/CMakeFiles/mymath.dir/build.make mymathlib/CMakeFiles/mymath.dir/build
 .PHONY : mymath/fast
 
-prac.o: prac.cpp.o
-.PHONY : prac.o
+mymath.o: mymath.cpp.o
+.PHONY : mymath.o
 
 # target to build an object file
-prac.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/hello.dir/build.make CMakeFiles/hello.dir/prac.cpp.o
-.PHONY : prac.cpp.o
+mymath.cpp.o:
+	cd /home/ankit/Code_purpose/ns3-crypto-integration/cmakeprac/build && $(MAKE) $(MAKESILENT) -f mymathlib/CMakeFiles/mymath.dir/build.make mymathlib/CMakeFiles/mymath.dir/mymath.cpp.o
+.PHONY : mymath.cpp.o
 
-prac.i: prac.cpp.i
-.PHONY : prac.i
+mymath.i: mymath.cpp.i
+.PHONY : mymath.i
 
 # target to preprocess a source file
-prac.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/hello.dir/build.make CMakeFiles/hello.dir/prac.cpp.i
-.PHONY : prac.cpp.i
+mymath.cpp.i:
+	cd /home/ankit/Code_purpose/ns3-crypto-integration/cmakeprac/build && $(MAKE) $(MAKESILENT) -f mymathlib/CMakeFiles/mymath.dir/build.make mymathlib/CMakeFiles/mymath.dir/mymath.cpp.i
+.PHONY : mymath.cpp.i
 
-prac.s: prac.cpp.s
-.PHONY : prac.s
+mymath.s: mymath.cpp.s
+.PHONY : mymath.s
 
 # target to generate assembly for a file
-prac.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/hello.dir/build.make CMakeFiles/hello.dir/prac.cpp.s
-.PHONY : prac.cpp.s
+mymath.cpp.s:
+	cd /home/ankit/Code_purpose/ns3-crypto-integration/cmakeprac/build && $(MAKE) $(MAKESILENT) -f mymathlib/CMakeFiles/mymath.dir/build.make mymathlib/CMakeFiles/mymath.dir/mymath.cpp.s
+.PHONY : mymath.cpp.s
 
 # Help Target
 help:
@@ -174,11 +162,10 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
-	@echo "... hello"
 	@echo "... mymath"
-	@echo "... prac.o"
-	@echo "... prac.i"
-	@echo "... prac.s"
+	@echo "... mymath.o"
+	@echo "... mymath.i"
+	@echo "... mymath.s"
 .PHONY : help
 
 
@@ -190,6 +177,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	$(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/ankit/Code_purpose/ns3-crypto-integration/cmakeprac/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

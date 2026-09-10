@@ -4,7 +4,7 @@
 # compile CXX with /usr/bin/c++
 CXX_DEFINES = 
 
-CXX_INCLUDES = 
+CXX_INCLUDES = -I/home/ankit/Code_purpose/ns3-crypto-integration/cmakeprac/mymathlib
 
 CXX_FLAGS = 
 

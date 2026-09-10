@@ -96,7 +96,7 @@ hello_EXTERNAL_OBJECTS =
 hello: CMakeFiles/hello.dir/prac.cpp.o
 hello: CMakeFiles/hello.dir/build.make
 hello: CMakeFiles/hello.dir/compiler_depend.ts
-hello: libmymath.a
+hello: mymathlib/libmymath.a
 hello: /usr/lib/x86_64-linux-gnu/libcryptopp.so
 hello: CMakeFiles/hello.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/ankit/Code_purpose/ns3-crypto-integration/cmakeprac/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable hello"

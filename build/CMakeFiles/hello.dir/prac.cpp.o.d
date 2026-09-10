@@ -161,7 +161,7 @@ CMakeFiles/hello.dir/prac.cpp.o: \
  /usr/include/c++/15/bits/basic_ios.tcc \
  /usr/include/c++/15/bits/ostream.tcc /usr/include/c++/15/istream \
  /usr/include/c++/15/bits/istream.tcc \
- /home/ankit/Code_purpose/ns3-crypto-integration/cmakeprac/mymath.h \
+ /home/ankit/Code_purpose/ns3-crypto-integration/cmakeprac/mymathlib/mymath.h \
  /usr/include/cryptopp/aes.h /usr/include/cryptopp/rijndael.h \
  /usr/include/cryptopp/seckey.h /usr/include/cryptopp/config.h \
  /usr/include/cryptopp/config_align.h /usr/include/cryptopp/config_asm.h \

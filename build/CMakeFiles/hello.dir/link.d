@@ -3,7 +3,7 @@ hello: \
   /usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu/crti.o \
   /usr/lib/gcc/x86_64-linux-gnu/15/crtbeginS.o \
   CMakeFiles/hello.dir/prac.cpp.o \
-  libmymath.a \
+  mymathlib/libmymath.a \
   /usr/lib/x86_64-linux-gnu/libcryptopp.so \
   /usr/lib/gcc/x86_64-linux-gnu/15/libstdc++.so \
   /usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu/libm.so \
@@ -43,7 +43,7 @@ hello: \
 
 CMakeFiles/hello.dir/prac.cpp.o:
 
-libmymath.a:
+mymathlib/libmymath.a:
 
 /usr/lib/x86_64-linux-gnu/libcryptopp.so:
 

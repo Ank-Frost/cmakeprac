@@ -11,6 +11,7 @@ set(CMAKE_MAKEFILE_DEPENDS
   "CMakeFiles/4.2.3/CMakeCCompiler.cmake"
   "CMakeFiles/4.2.3/CMakeCXXCompiler.cmake"
   "CMakeFiles/4.2.3/CMakeSystem.cmake"
+  "/home/ankit/Code_purpose/ns3-crypto-integration/cmakeprac/mymathlib/CMakeLists.txt"
   "/usr/share/cmake-4.2/Modules/CMakeCCompiler.cmake.in"
   "/usr/share/cmake-4.2/Modules/CMakeCCompilerABI.c"
   "/usr/share/cmake-4.2/Modules/CMakeCInformation.cmake"
@@ -139,10 +140,11 @@ set(CMAKE_MAKEFILE_PRODUCTS
   "CMakeFiles/4.2.3/CMakeCXXCompiler.cmake"
   "CMakeFiles/4.2.3/CMakeCXXCompiler.cmake"
   "CMakeFiles/CMakeDirectoryInformation.cmake"
+  "mymathlib/CMakeFiles/CMakeDirectoryInformation.cmake"
   )
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
-  "CMakeFiles/mymath.dir/DependInfo.cmake"
   "CMakeFiles/hello.dir/DependInfo.cmake"
+  "mymathlib/CMakeFiles/mymath.dir/DependInfo.cmake"
   )
